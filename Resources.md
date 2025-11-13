@@ -1,3 +1,3 @@
-- [AWS Services Overview](aws-services.md)
+- [AWS Services Overview](AWS Services.md)
 - [My Learning Journey](My-learning-job.md)
-- [Useful Resources](resources.md)
+- [Useful Resources](Resources.md)
