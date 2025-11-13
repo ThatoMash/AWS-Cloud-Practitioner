@@ -19,3 +19,23 @@ Overview of AWS Services Structure
 • Amazon EFS: Managed file storage for use with Amazon EC2.
 
 • AWS Backup: Centralized backup service for AWS services.
+
+3. Database Services
+
+• Amazon RDS: Managed relational database service.
+
+• Amazon DynamoDB: NoSQL database service for high-performance applications.
+
+• Amazon Redshift: Data warehousing service for analytics.
+
+• Amazon Aurora: MySQL and PostgreSQL-compatible relational database.
+
+4. Networking Services
+
+• Amazon VPC: Virtual Private Cloud for isolated cloud resources.
+
+• AWS Direct Connect: Dedicated network connection from your premises to AWS.
+
+• Amazon Route 53: Scalable DNS and domain name registration service.
+
+• AWS CloudFront: Content delivery network (CDN) for faster content delivery.
