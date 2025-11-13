@@ -67,3 +67,15 @@ Overview of AWS Services Structure
 • AWS DeepLens: Deep learning-enabled video camera.
 
 • Amazon Rekognition: Image and video analysis service.
+
+• Amazon Comprehend: Natural language processing service.
+
+8. Application Integration Services
+
+• Amazon SQS: Fully managed message queuing service.
+
+• Amazon SNS: Simple Notification Service for messaging.
+
+• AWS Step Functions: Coordinate multiple AWS services into serverless workflows.
+
+• Amazon EventBridge: Serverless event bus for application integration.
