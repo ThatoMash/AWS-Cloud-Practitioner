@@ -39,3 +39,31 @@ Overview of AWS Services Structure
 • Amazon Route 53: Scalable DNS and domain name registration service.
 
 • AWS CloudFront: Content delivery network (CDN) for faster content delivery.
+
+5. Security Services
+
+• AWS IAM: Identity and Access Management for secure access control.
+
+• AWS Shield: DDoS protection for applications.
+
+• AWS WAF: Web Application Firewall to protect web applications.
+
+• AWS Secrets Manager: Manage and retrieve secrets securely.
+
+6. Monitoring and Management Services
+
+• Amazon CloudWatch: Monitoring and observability service for AWS resources.
+
+• AWS CloudTrail: Track user activity and API usage.
+
+• AWS Config: Track AWS resource configurations and compliance.
+
+• AWS Systems Manager: Operational data from multiple AWS services.
+
+7. Machine Learning Services
+
+• Amazon SageMaker: Build, train, and deploy machine learning models.
+
+• AWS DeepLens: Deep learning-enabled video camera.
+
+• Amazon Rekognition: Image and video analysis service.
