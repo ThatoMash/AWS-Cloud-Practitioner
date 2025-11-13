@@ -1,7 +1,33 @@
 ![Profile Picture](your-profile-picture-url)
 
 # 💫 About Me:
-👋 Hi there, I'm Thato Precious<br><br>🌩️ I'm currently working on:<br>Building my foundational skills in AWS Cloud through hands-on labs and projects as part of my journey to become an AWS Certified Cloud Practitioner.<br><br>🤝 I'm looking to collaborate on:<br>Beginner-friendly cloud projects, especially those involving AWS services, cloud security, or automation.<br><br>🧠 I'm looking for help with:<br>Understanding AWS core services, cloud deployment, and best practices for managing cloud environments.<br><br>📚 I'm currently learning:<br>AWS fundamentals — including EC2, S3, IAM, VPC, and CloudWatch — along with how to use GitHub for managing and sharing my projects.<br><br>💬 Ask me about:<br>My learning experience as a beginner in cloud computing, how I organize my study projects, or how I’m preparing for the AWS Cloud Practitioner certification.<br><br>🎉 Fun fact:<br>I used to think the “cloud” was just about storage — now I know it’s the backbone of modern technology!<br>
+👋 Hi there, I'm Thato Precious<br><br>🌩️ I'm currently working on:<br>Building my foundational skills in AWS Cloud through hands-on labs and projects as part of my journey to become an AWS Certified Cloud Practitioner.<br><br>🤝 I'm looking to collaborate on:<br>Beginner-friendly cloud projects, especially those involving AWS services, cloud security, or automation.<br><br>🧠 I'm looking for help with:<br>Understanding AWS core services, cloud deployment, and best practices for managing cloud environments.<br>><br>💬 Ask me about:<br>My learning experience as a beginner in cloud computing, how I organize my study projects, or how I’m preparing for the AWS Cloud Practitioner certification.<br><br>🎉 Fun fact:<br>I used to think the “cloud” was just about storage — now I know it’s the backbone of modern technology!<br>
+
+# ☁️ AWS Cloud Practitioner Journey
+
+Welcome to my AWS Cloud Practitioner learning repository!  
+This repo documents my progress, notes, and hands-on labs as I build foundational cloud computing skills.
+
+## 📘 Modules Covered
+1. [Introduction to AWS](./Module-1-Introduction-to-AWS/notes.md)
+2. [Compute Services](./Module-2-Compute-Services/notes.md)
+3. [Storage Services](./Module-3-Storage-Services/notes.md)
+4. [Database & Analytics](./Module-4-Database-and-Analytics/notes.md)
+5. [Networking & Content Delivery](./Module-5-Networking-and-Content-Delivery/notes.md)
+6. [Security Services](./Module-6-Security-Services/notes.md)
+7. [Management Tools](./Module-7-Management-Tools/notes.md)
+8. [Application & Migration Services](./Module-8-Application-and-Migration/notes.md)
+9. [Developer Tools & Machine Learning](./Module-9-Developer-Tools-and-ML/notes.md)
+
+## 🧠 Goal
+To understand core AWS services and prepare for the **AWS Certified Cloud Practitioner exam**.
+
+## 🪴 Resources
+See [Resources.md](./Resources.md) for helpful study materials and AWS documentation.
+
+## 🧍 About Me
+Hi! I’m **Thato Precious**, an aspiring AWS Cloud Practitioner passionate about learning cloud technologies and building a career in the cloud space.
+
 
 
 ## 🌐 Socials:
