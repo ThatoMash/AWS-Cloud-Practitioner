@@ -1,6 +1,6 @@
 # Overview of AWS Services Structure
 
-1. Compute Services
+### 1. Compute Services
 
 • **Amazon EC2**: Scalable virtual servers in the cloud.
 
@@ -10,7 +10,7 @@
 
 • **Amazon EKS**: Managed Kubernetes service.
 
-2. Storage Services
+### 2. Storage Services
 
 • **Amazon S3**: Object storage service for data storage and retrieval.
 
@@ -20,7 +20,7 @@
 
 • **AWS Backup**: Centralized backup service for AWS services.
 
-3. Database Services
+### 3. Database Services
 
 • **Amazon RDS**: Managed relational database service.
 
@@ -30,7 +30,7 @@
 
 • **Amazon Aurora**: MySQL and PostgreSQL-compatible relational database.
 
-4. Networking Services
+### 4. Networking Services
 
 • **Amazon VPC**: Virtual Private Cloud for isolated cloud resources.
 
@@ -40,7 +40,7 @@
 
 • **AWS CloudFront**: Content delivery network (CDN) for faster content delivery.
 
-5. Security Services
+### 5. Security Services
 
 • **AWS IAM**: Identity and Access Management for secure access control.
 
@@ -50,7 +50,7 @@
 
 • **AWS Secrets Manager**: Manage and retrieve secrets securely.
 
-6. Monitoring and Management Services
+### 6. Monitoring and Management Services
 
 • **Amazon CloudWatch**: Monitoring and observability service for AWS resources.
 
@@ -60,7 +60,7 @@
 
 • **AWS Systems Manager**: Operational data from multiple AWS services.
 
-7. Machine Learning Services
+### 7. Machine Learning Services
 
 • **Amazon SageMaker**: Build, train, and deploy machine learning models.
 
@@ -70,7 +70,7 @@
 
 • **Amazon Comprehend**: Natural language processing service.
 
-8. Application Integration Services
+### 8. Application Integration Services
 
 • **Amazon SQS**: Fully managed message queuing service.
 
