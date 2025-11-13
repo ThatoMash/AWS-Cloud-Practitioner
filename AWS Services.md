@@ -78,4 +78,4 @@
 
 • **AWS Step Functions**: Coordinate multiple AWS services into serverless workflows.
 
-• Amazon EventBridge: Serverless event bus for application integration.
+• **Amazon EventBridge**: Serverless event bus for application integration.
