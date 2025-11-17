@@ -1,4 +1,4 @@
-<img src="Images/" width="300">
+<img src="Images/profileP.png" width="300">
 
 
 # ☁️ AWS Cloud Practitioner Journey
