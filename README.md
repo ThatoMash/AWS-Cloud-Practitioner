@@ -49,5 +49,5 @@ I’m exploring how AWS services work together to build secure, scalable, and co
 ☁️ *Learning one cloud at a time!*
 
 ## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://web.facebook.com/thato.mashimbi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/thato-precious-41221679)  [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Thatomashimbi@gmail.com) 
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://web.facebook.com/thato.mashimbi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thato-p-mashimbi/)  [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Thatomashimbi@gmail.com) 
 
