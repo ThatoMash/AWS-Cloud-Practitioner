@@ -1,4 +1,5 @@
-![Profile Picture](your-profile-picture-url)
+<img src="Images/" width="300">
+
 
 # ☁️ AWS Cloud Practitioner Journey
 
