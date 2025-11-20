@@ -4,21 +4,11 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🗂️ Quick Navigation
-- [Week 1 – Introduction to AWS](#🌩️-week-1--introduction-to-aws)
-- [Week 2 – Compute Services](#💻-week-2--compute-services)
-- [Week 3 – Storage Services](#🗄️-week-3--storage-services)
-- [Week 4 – Database & Analytics](#🧮-week-4--database--analytics)
-- [Week 5 – Networking & Content Delivery](#🌐-week-5--networking--content-delivery)
-- [Week 6 – Security Services](#🔒-week-6--security-services)
-- [Week 7 – Management Tools](#🧰-week-7--management-tools)
-- [Week 8 – Application & Migration Services](#🚀-week-8--application--migration-services)
-- [Week 9 – Developer Tools & Machine Learning](#🤖-week-9--developer-tools--machine-learning)
-- [My Goals](#🎯-goals)
+
 
 ---
 
-## 🌩️ Week 1 – Introduction to AWS
+## 🌩️ Week  – Introduction to AWS
 - Learned about cloud computing concepts: **IaaS, PaaS, SaaS**
 - Explored **AWS Global Infrastructure** (Regions, Availability Zones, Edge Locations)
 - Understood the **AWS Shared Responsibility Model**
@@ -28,7 +18,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 💻 Week 2 – Compute Services
+## 💻 Week  – Compute Services
 - Learned about **EC2 instances**, **pricing models**, and **instance types**
 - Explored **Elastic Load Balancing** and **Auto Scaling**
 - Introduction to **AWS Lambda** and the concept of **serverless computing**
@@ -38,7 +28,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🗄️ Week 3 – Storage Services
+## 🗄️ Week  – Storage Services
 - Understood differences between **S3**, **EBS**, and **EFS**
 - Practiced creating and managing **S3 buckets**
 - Learned about **S3 storage classes** and **lifecycle policies**
@@ -48,7 +38,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🧮 Week 4 – Database & Analytics
+## 🧮 Week  – Database & Analytics
 - Introduction to **RDS**, **DynamoDB**, and **Redshift**
 - Understood managed databases and their advantages
 - Completed a lab: *Creating an RDS instance*
@@ -57,7 +47,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🌐 Week 5 – Networking & Content Delivery
+## 🌐 Week  – Networking & Content Delivery
 - Explored **VPC**, **subnets**, and **security groups**
 - Learned about **Route 53** and **CloudFront**
 - Completed a lab: *Configuring a custom VPC*
@@ -66,7 +56,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🔒 Week 6 – Security Services
+## 🔒 Week  – Security Services
 - Learned about **IAM users, roles, and policies**
 - Studied **AWS Shield** and **GuardDuty**
 - Understood the **Principle of Least Privilege**
@@ -76,7 +66,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🧰 Week 7 – Management Tools
+## 🧰 Week  – Management Tools
 - Learned to use **AWS CloudWatch**, **CloudTrail**, and **Trusted Advisor**
 - Monitored resource usage and tracked account activity
 - Completed a lab: *Viewing CloudWatch metrics and creating alarms*
@@ -85,7 +75,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🚀 Week 8 – Application & Migration Services
+## 🚀 Week  – Application & Migration Services
 - Introduction to **AWS Migration Hub** and **Application Discovery Service**
 - Understood how to move workloads from on-premises to AWS
 - Completed a lab: *Monitoring application migration progress*
@@ -94,7 +84,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-## 🤖 Week 9 – Developer Tools & Machine Learning
+## 🤖 Week  – Developer Tools & Machine Learning
 - Learned about **CodeCommit**, **CodeBuild**, and **CodeDeploy**
 - Explored **Amazon SageMaker** for ML workflows
 - Completed a lab: *Creating a simple CI/CD pipeline*
