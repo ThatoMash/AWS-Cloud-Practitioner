@@ -172,22 +172,11 @@ DELETE FROM users WHERE id = 2;
 - DQL: SELECT with filtering and ordering
 - Transaction management for data integrity
 
-## 📚 Additional Resources
 
-- [Amazon RDS Documentation](https://docs.aws.amazon.com/rds/)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
-- [RDS Best Practices](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html)
 
 ---
 
-**Lab Status**: ✅ Completed Successfully
 
-**Completion Date**: [Add your date]
-
-**Database Endpoint**: [Your RDS endpoint]
 
 ---
 
-⭐ **If this lab guide was helpful, please star the repository!**
-
-**Tags**: #AWS #RDS #MySQL #Database #SQL #CloudComputing
