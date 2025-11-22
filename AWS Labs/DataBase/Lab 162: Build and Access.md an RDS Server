@@ -1,0 +1,105 @@
+# Challenge Lab – Build Your DB Server and Interact With Your DB
+
+This lab demonstrates how to **launch**, **configure**, and **interact** with an AWS-managed relational database using **Amazon RDS**.  
+Amazon RDS simplifies the setup, operation, and scaling of relational databases while handling administrative tasks, allowing you to focus on your applications.
+
+---
+
+## **Lab Objectives**
+
+After completing this lab, you will be able to:
+
+- **Create an Amazon RDS instance**  
+- **Use the Amazon RDS Query Editor to query data**  
+- **Create tables and insert sample data**  
+- **Perform SQL queries including joins**
+
+**Duration:** ~45 minutes
+
+---
+
+## **1. Launch an Amazon RDS DB Instance**
+
+Steps completed:
+
+- Chose **Amazon Aurora** or **MySQL** as the database engine  
+- Template: **Dev/Test** or **Free tier**  
+- DB instance size: **Burstable classes (db.t3.micro – db.t3.medium)**  
+- Storage: **General Purpose SSD (gp2) up to 100 GB**  
+- Security group: Allowed **LinuxServer** to connect to the RDS instance  
+- Downloaded **PEM (Linux/macOS)** or **PPK (Windows)** for connection  
+
+![RDS Instance Creation](screenshots/rds_instance_creation.png)
+*TODO: Add screenshot of RDS instance creation*
+
+---
+
+## **2. Connect to the LinuxServer**
+
+- SSH into the **LinuxServer** using the downloaded key and server address  
+- Installed **MySQL client**  
+- Connected to the RDS instance using the DB credentials  
+
+![SSH Connection](screenshots/ssh_connection.png)
+*TODO: Add screenshot of SSH connection to LinuxServer*
+
+---
+
+## **3. Create Tables and Insert Sample Data**
+
+### **3.1 Table: RESTART**
+
+Columns:
+
+- **Student ID** (Number)  
+- **Student Name**  
+- **Restart City**  
+- **Graduation Date** (DateTime)  
+
+![RESTART Table Creation](screenshots/restart_table_creation.png)
+*TODO: Add screenshot of RESTART table creation*
+
+Inserted **10 sample rows**:  
+
+![RESTART Table Data](screenshots/restart_table_data.png)
+*TODO: Add screenshot of inserted data in RESTART table*
+
+Selected all rows:  
+
+![RESTART Table Query Results](screenshots/restart_table_query.png)
+*TODO: Add screenshot of SELECT query results for RESTART table*
+
+---
+
+### **3.2 Table: CLOUD_PRACTITIONER**
+
+Columns:
+
+- **Student ID** (Number)  
+- **Certification Date** (DateTime)  
+
+![CLOUD_PRACTITIONER Table Creation](screenshots/cloud_practitioner_table_creation.png)
+*TODO: Add screenshot of CLOUD_PRACTITIONER table creation*
+
+Inserted **5 sample rows**:  
+
+![CLOUD_PRACTITIONER Table Data](screenshots/cloud_practitioner_table_data.png)
+*TODO: Add screenshot of inserted data in CLOUD_PRACTITIONER table*
+
+Selected all rows:  
+
+![CLOUD_PRACTITIONER Table Query Results](screenshots/cloud_practitioner_table_query.png)
+*TODO: Add screenshot of SELECT query results for CLOUD_PRACTITIONER table*
+
+---
+
+## **4. Perform Inner Join**
+
+Query:
+
+```sql
+SELECT RESTART.StudentID, RESTART.StudentName, RESTART.RestartCity, RESTART.GraduationDate, 
+CLOUD_PRACTITIONER.CertificationDate
+FROM RESTART
+INNER JOIN CLOUD_PRACTITIONER
+ON RESTART.StudentID = CLOUD_PRACTITIONER.StudentID;
