@@ -29,7 +29,17 @@ Steps completed:
 - Security group: Allowed LinuxServer to connect to the RDS instance  
 - Downloaded PEM (Linux/macOS) or PPK (Windows) for connection  
 
-![RDS Instance Creation](screenshots/rds_instance_creation.png)  
+<img width="1337" height="546" alt="image" src="https://github.com/user-attachments/assets/1eb6d33e-710a-4b90-83aa-ce419558e697" />
+
+<img width="1329" height="555" alt="image" src="https://github.com/user-attachments/assets/3f361cc3-37c3-4e67-a45f-ce5dcd39563d" />
+
+<img width="1334" height="562" alt="image" src="https://github.com/user-attachments/assets/97fdc889-d508-432c-b756-ce054b04c6ea" />
+
+<img width="1348" height="559" alt="image" src="https://github.com/user-attachments/assets/69d6ccd6-7c54-472d-a0e0-03076050df91" />
+
+
+
+ 
 *TODO: Add screenshot of RDS instance creation*
 
 ---
@@ -40,7 +50,8 @@ Steps completed:
 - Installed MySQL client  
 - Connected to the RDS instance using the DB credentials  
 
-![SSH Connection](screenshots/ssh_connection.png)  
+<img width="661" height="411" alt="image" src="https://github.com/user-attachments/assets/865a10ee-8c5a-4c27-b4ef-b8b2d52f3c42" />
+  
 *TODO: Add screenshot of SSH connection to LinuxServer*
 
 ---
