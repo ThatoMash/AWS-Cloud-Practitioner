@@ -86,3 +86,15 @@ wget https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-RESTRT-1/
 unzip lab-app.zip -d /var/www/html/
 chkconfig httpd on
 service httpd start
+```
+
+<img width="1340" height="559" alt="image" src="https://github.com/user-attachments/assets/b0067bc2-7251-4b07-a9bd-bb52a2c6a9b3" />
+
+<img width="1350" height="566" alt="image" src="https://github.com/user-attachments/assets/02c52a18-2acc-4d98-8daf-9a02252c498d" />
+
+<img width="1349" height="567" alt="image" src="https://github.com/user-attachments/assets/4d40b20b-c101-4123-b5ab-53c9caaea923" />
+
+
+
+
+
