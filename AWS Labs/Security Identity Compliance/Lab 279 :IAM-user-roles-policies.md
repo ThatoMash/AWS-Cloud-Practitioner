@@ -43,11 +43,13 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 *Displays pre-created IAM users: user-1, user-2, user-3.*
 
 ### User-1 Summary
-![User-1 Summary](screenshots/09-user1-summary.png)  
+<img width="1098" height="568" alt="image" src="https://github.com/user-attachments/assets/bedd5898-c7d5-4e5c-845c-c9f15efbfc83" />
+  
 *Shows user-1 details with no permissions yet assigned.*
 
 ### S3-Support Group
-![S3-Support Group](screenshots/18-s3-support-group.png)  
+<img width="1348" height="567" alt="image" src="https://github.com/user-attachments/assets/86656b94-0592-454e-ad5d-6d2926cccee8" />
+  
 *User group created for S3 read-only access. Users inherit permissions through group membership.*
 
 ---
@@ -55,15 +57,18 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 ## 🔹 Task 3: Adding Users to Groups
 
 ### Add User-1 to S3-Support
-![Add User-1 to Group](screenshots/27-user1-added-s3.png)  
+<img width="1088" height="556" alt="image" src="https://github.com/user-attachments/assets/b7660645-8e59-4025-a180-d2831a722a8d" />
+  
 *Confirmed that user-1 is now a member of the S3-Support group.*
 
 ### Add User-2 to EC2-Support
-![Add User-2 to Group](screenshots/29-user2-added-success.png)  
+<img width="1346" height="565" alt="image" src="https://github.com/user-attachments/assets/b6f5616b-28df-49af-8937-5b4856f1175c" />
+  
 *User-2 added to EC2-Support group, inheriting read-only EC2 permissions.*
 
 ### Add User-3 to EC2-Admin
-![Add User-3 to Group](screenshots/31-user3-added-success.png)  
+<img width="1349" height="569" alt="image" src="https://github.com/user-attachments/assets/b73aad0d-686f-4d40-8fdd-2efd13e478d0" />
+  
 *User-3 added to EC2-Admin group for full EC2 administrative access.*
 
 ---
@@ -71,15 +76,21 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 ## 🔹 Task 4: Testing Permissions
 
 ### User-1 S3 Access
-![User-1 S3 Access](screenshots/38-user1-s3-access.png)  
+<img width="1340" height="560" alt="image" src="https://github.com/user-attachments/assets/190339a5-c9e0-4063-85d0-c1c3162c67a8" />
+  
 *User-1 can view and list S3 buckets, read-only access working as intended.*
 
 ### User-1 EC2 Access Denied
-![User-1 EC2 Denied](screenshots/40-user1-ec2-denied.png)  
+<img width="1351" height="564" alt="image" src="https://github.com/user-attachments/assets/a4d49031-403c-4bce-b42b-93e196e31b34" />
+ 
 *User-1 cannot access EC2 instances — principle of least privilege verified.*
 
 ### User-3 EC2 Admin Actions
-![User-3 Stop EC2](screenshots/51-user3-stop-instance.png)  
+<img width="1361" height="560" alt="image" src="https://github.com/user-attachments/assets/eaadafb6-a2f5-4d67-be8f-e38acfafeaf8" />
+
+<img width="1357" height="554" alt="image" src="https://github.com/user-attachments/assets/009990d5-91ba-4094-b2f5-cfd9484f9373" />
+
+  
 *User-3 stops an EC2 instance successfully, demonstrating admin permissions.*
 
 ---
