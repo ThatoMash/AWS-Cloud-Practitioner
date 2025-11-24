@@ -96,6 +96,10 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
   
 *User-3 stops an EC2 instance successfully, demonstrating admin permissions.*
 
+<img width="1348" height="568" alt="image" src="https://github.com/user-attachments/assets/c923d60d-e28f-4a8d-8437-5ad6d7734106" />
+
+
+
 ---
 
 ## 📝 Notes / Key Learnings
