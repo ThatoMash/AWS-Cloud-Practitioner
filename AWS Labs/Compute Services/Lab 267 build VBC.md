@@ -18,7 +18,8 @@ After completing this lab, you will be able to:
 - Launch and configure an EC2 instance as a web server  
 - Deploy a web application on the EC2 instance  
 
-**Duration:** ~45 minutes
+<img width="872" height="470" alt="image" src="https://github.com/user-attachments/assets/950f2fa8-1e51-4870-984f-f1dafde20d66" />
+
 
 ---
 
@@ -29,8 +30,9 @@ After completing this lab, you will be able to:
 - **Internet Gateway:** Enabled for public access  
 - **NAT Gateway:** Enabled for private subnet internet access  
 
-![VPC Creation](screenshots/01-vpc-creation.png)  
-*TODO: Add screenshot of VPC creation*
+<img width="1352" height="561" alt="image" src="https://github.com/user-attachments/assets/2cfe1f8d-925c-4e1f-8b6f-88d7668914f5" />
+
+
 
 ---
 
@@ -43,8 +45,8 @@ After completing this lab, you will be able to:
 | Public Subnet 2  | Public  | 10.0.2.0/24 | us-west-2b |
 | Private Subnet 2 | Private | 10.0.3.0/24 | us-west-2b |
 
-![Subnets Overview](screenshots/02-subnets.png)  
-*TODO: Add screenshot of subnets*
+<img width="1121" height="547" alt="image" src="https://github.com/user-attachments/assets/d07227e3-dc76-4176-8c28-135ff1bc69f9" />
+
 
 ---
 
@@ -53,8 +55,11 @@ After completing this lab, you will be able to:
 - **Public Route Table:** Routes 0.0.0.0/0 → Internet Gateway  
 - **Private Route Table:** Routes 0.0.0.0/0 → NAT Gateway  
 
-![Route Tables](screenshots/03-route-tables.png)  
-*TODO: Add screenshot of route tables*
+<img width="1084" height="553" alt="image" src="https://github.com/user-attachments/assets/b5b3680b-7d70-4b54-8e8c-60478df4f4b1" />
+
+<img width="1123" height="561" alt="image" src="https://github.com/user-attachments/assets/0e5d82e7-9c98-4867-b346-48d7bc3206e4" />
+
+
 
 ---
 
@@ -63,8 +68,8 @@ After completing this lab, you will be able to:
 - **Name:** Web Security Group  
 - **Inbound Rule:** HTTP (Port 80) from anywhere (0.0.0.0/0)  
 
-![Security Group](screenshots/04-security-group.png)  
-*TODO: Add screenshot of security group configuration*
+<img width="1340" height="551" alt="image" src="https://github.com/user-attachments/assets/a9af3706-7066-48da-94a4-b120241cc5fe" />
+
 
 ---
 
