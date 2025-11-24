@@ -14,23 +14,32 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 ## 🔹 Task 1: Password Policy Configuration
 
 ### IAM Dashboard
-![IAM Dashboard](screenshots/01-iam-dashboard.png)  
+<img width="1347" height="564" alt="image" src="https://github.com/user-attachments/assets/eeb19d6f-eab2-4052-a062-ab3633b5326b" />
+  
 *This is the AWS IAM dashboard from where we navigate to configure password policies.*
 
 ### Default Password Policy
-![Default Password Policy](screenshots/02-default-password-policy.png)  
+<img width="1351" height="570" alt="image" src="https://github.com/user-attachments/assets/309d432b-7832-421e-9528-2ab6c3b67812" />
+  
 *Shows the current account password policy before customization.*
 
 ### Custom Password Policy
-![Custom Password Policy](screenshots/04-password-policy-config.png)  
+<img width="1361" height="563" alt="image" src="https://github.com/user-attachments/assets/bb9adcc8-c536-495e-9c3e-c43610c4002c" />
+
 *Configured password policy: minimum 10 characters, uppercase, lowercase, numbers, symbols, 90-day expiration.*
+
+<img width="1350" height="560" alt="image" src="https://github.com/user-attachments/assets/43b2786a-32f2-4321-a8aa-30ace15bd1f3" />
+
+<img width="1068" height="379" alt="image" src="https://github.com/user-attachments/assets/469f45bb-8fdb-4ad5-9686-4f7c316c5550" />
+
 
 ---
 
 ## 🔹 Task 2: Users and Groups
 
 ### IAM Users List
-![Users List](screenshots/08-iam-users-list.png)  
+<img width="1346" height="566" alt="image" src="https://github.com/user-attachments/assets/20349328-bf30-4dae-8205-957f92ea2f4d" />
+  
 *Displays pre-created IAM users: user-1, user-2, user-3.*
 
 ### User-1 Summary
