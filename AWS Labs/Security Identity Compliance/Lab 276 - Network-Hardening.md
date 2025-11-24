@@ -30,8 +30,8 @@ After completing this lab, you will be able to:
 - Confirm activation  
 - Initial scan automatically triggered (Lambda functions coverage 100%)  
 
-![Inspector Activation](screenshots/01-activate-inspector.png)  
-*TODO: Add screenshot of Inspector activation*
+<img width="1091" height="554" alt="image" src="https://github.com/user-attachments/assets/b1d05898-bc08-4271-9da1-8c1ba6ac3f84" />
+  
 
 ---
 
@@ -45,8 +45,9 @@ After completing this lab, you will be able to:
 |---------|--------|----------|----------|---------|---------|
 | 1 | CVE-2023-32681 | Medium | get-request | requests | 2.20.0 |
 
-![Findings List](screenshots/02-findings-list.png)  
-*TODO: Add screenshot of findings list*
+<img width="1346" height="562" alt="image" src="https://github.com/user-attachments/assets/fce50ffe-853f-4553-9c99-4b65ccfa81cf" />
+  
+
 
 ---
 
@@ -54,7 +55,10 @@ After completing this lab, you will be able to:
 
 ### Step 1: Navigate to Lambda Function
 - Open Lambda function `get-request`  
-- Access `requirements.txt`  
+- Access `requirements.txt`
+
+  <img width="1359" height="559" alt="image" src="https://github.com/user-attachments/assets/c14f16b4-a5dd-465d-b387-88dfc4594265" />
+
 
 ### Step 2: Update dependencies
 ```text
@@ -70,8 +74,11 @@ Click Deploy in Lambda console
 
 Inspector automatically triggers re-scan
 
+<img width="1331" height="560" alt="image" src="https://github.com/user-attachments/assets/ae0b63e0-4cb3-47ba-95b4-85195deaac3a" />
 
-TODO: Add screenshot of Lambda deployment
+<img width="1338" height="559" alt="image" src="https://github.com/user-attachments/assets/1699f2cc-8e95-4d25-9755-f20a5d7735d3" />
+
+
 
 Step 4: Verify Remediation
 
@@ -81,8 +88,11 @@ Filter findings to Closed
 
 Confirm CVE-2023-32681 is closed
 
+<img width="1053" height="547" alt="image" src="https://github.com/user-attachments/assets/5dc6b0b4-8bf9-4a6d-863d-71dde3a71c26" />
 
-TODO: Add screenshot of verified remediation
+
+
+
 
 4. Summary
 
