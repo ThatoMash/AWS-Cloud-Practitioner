@@ -22,25 +22,10 @@ This lab demonstrates deploying a static website to Amazon S3 using AWS CLI. The
 
 **Approximately 45 minutes**
 
-## 🏗️ Architecture
+##  Architecture
 
-```
-┌─────────────────────────────────────────────────┐
-│            EC2 Instance (Amazon Linux)          │
-│            • AWS CLI configured                 │
-│            • Deployment scripts                 │
-│                     │                            │
-│                     ▼                            │
-│            S3 Bucket (twhitlock256)             │
-│            • Static website hosting enabled     │
-│            • Public access configured           │
-│            • Website files uploaded             │
-│                     │                            │
-│                     ▼                            │
-│       Public Website URL (HTTP)                 │
-│   http://twhitlock256.s3-website-us-west-2...  │
-└─────────────────────────────────────────────────┘
-```
+<img width="800" height="409" alt="image" src="https://github.com/user-attachments/assets/0759e8fd-1a9c-4867-8154-5520be6533b7" />
+
 
 ## 📸 Screenshots
 
