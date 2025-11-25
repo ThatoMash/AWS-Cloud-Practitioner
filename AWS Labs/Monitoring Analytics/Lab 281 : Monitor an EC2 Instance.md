@@ -16,7 +16,12 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 7. Endpoint: Your email address.
 8. Confirm the subscription from your email inbox.
 
-[PLACEHOLDER: SNS Topic & Subscription Screenshot]
+<img width="1349" height="558" alt="image" src="https://github.com/user-attachments/assets/0386d729-a823-4001-86c8-0f847d109958" />
+<img width="1358" height="563" alt="image" src="https://github.com/user-attachments/assets/2f9ce1d8-55d4-4f31-9b2a-dffa5b7e4894" />
+<img width="1348" height="563" alt="image" src="https://github.com/user-attachments/assets/07197682-a4c3-4af8-91fd-8f98af7b0997" />
+
+
+
 
 ---
 
@@ -32,7 +37,18 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 5. Add SNS notification: MyCwAlarm.
 6. Name the alarm: LabCPUUtilizationAlarm.
 
-[PLACEHOLDER: CloudWatch Alarm Screenshot]
+<img width="1361" height="562" alt="image" src="https://github.com/user-attachments/assets/0f9ee03f-98af-45ff-af36-5798e8e5ce2d" />
+<img width="1365" height="561" alt="image" src="https://github.com/user-attachments/assets/84574bbe-cc8d-4e9e-b887-779a7339de63" />
+<img width="1365" height="465" alt="image" src="https://github.com/user-attachments/assets/7d193432-836c-4a3b-b143-c92c1fa9ba43" />
+<img width="1364" height="566" alt="image" src="https://github.com/user-attachments/assets/2cd348bb-1e0a-41e3-9538-b44d977c126f" />
+<img width="1365" height="564" alt="image" src="https://github.com/user-attachments/assets/2a4b1f52-fbbd-4ca1-8ea4-adcb9453260a" />
+<img width="1358" height="565" alt="image" src="https://github.com/user-attachments/assets/8df1ab1a-fb5f-41fd-bdf3-351bf5cbb278" />
+
+
+
+
+
+
 
 ---
 
