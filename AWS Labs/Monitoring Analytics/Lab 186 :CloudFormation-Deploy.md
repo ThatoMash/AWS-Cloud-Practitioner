@@ -12,6 +12,8 @@ Monitoring your applications and infrastructure is critical for delivering relia
 <img width="668" height="202" alt="image" src="https://github.com/user-attachments/assets/d22d6bf3-f37d-4f45-9012-ce68237db78f" />
 
 
+
+
 ---
 
 ## Task 1: Installing the CloudWatch Agent
@@ -100,6 +102,9 @@ Monitoring your applications and infrastructure is critical for delivering relia
 
 **Screenshot Placeholder:**
 <img width="1357" height="566" alt="image" src="https://github.com/user-attachments/assets/cef80809-82b1-4bfc-a1cf-a2205398e42d" />
+
+
+<img width="1363" height="559" alt="image" src="https://github.com/user-attachments/assets/81936214-7f9f-4a84-a97e-9b678f8d7d81" />
 
 
 ---
