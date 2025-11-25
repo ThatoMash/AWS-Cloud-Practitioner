@@ -74,10 +74,19 @@ Monitoring your applications and infrastructure is critical for delivering relia
 
 <img width="1360" height="559" alt="image" src="https://github.com/user-attachments/assets/a659f86b-4580-47cf-b8ff-93637fd57ea7" />
 
+<img width="1359" height="558" alt="image" src="https://github.com/user-attachments/assets/886bfc2d-c0a9-45de-93e2-db2eee836cbc" />
+
+<img width="1355" height="566" alt="image" src="https://github.com/user-attachments/assets/84b47ff2-e0f2-417f-9bb3-b8975d0404a6" />
+
+<img width="1365" height="570" alt="image" src="https://github.com/user-attachments/assets/69f4e482-c45d-4f9f-91ed-5cc1c2bb8d39" />
+
+<img width="673" height="523" alt="image" src="https://github.com/user-attachments/assets/d09fdf84-ac93-48b2-8303-04c649a7bded" />
+
+**TESTING Page**
+<img width="1348" height="677" alt="image" src="https://github.com/user-attachments/assets/47bb4b80-765d-45f8-8926-9f7a62697287" />
 
 
 
----
 
 ## Task 3: Monitoring Instance Metrics Using CloudWatch
 **Steps:**
@@ -90,7 +99,8 @@ Monitoring your applications and infrastructure is critical for delivering relia
 5. Explore additional metrics captured by the CloudWatch agent.
 
 **Screenshot Placeholder:**
-![Task 3: CloudWatch Metrics](path/to/task3_screenshot.png)
+<img width="1357" height="566" alt="image" src="https://github.com/user-attachments/assets/cef80809-82b1-4bfc-a1cf-a2205398e42d" />
+
 
 ---
 
