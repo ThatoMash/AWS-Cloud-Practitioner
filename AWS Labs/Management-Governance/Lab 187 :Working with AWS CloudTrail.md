@@ -1,181 +1,146 @@
-# AWS CloudTrail Lab – Café Website Security Investigation
+# AWS CloudTrail Lab – Café Website Investigation (Simplified)
 
 ## Overview
-In this activity, you create an AWS CloudTrail trail to audit actions in your account and investigate modifications to the Café website. The lab starts with an EC2 instance named **Café Web Server**, hosting a web application for the Café website. You will observe, investigate, analyze logs, and secure the system after identifying a hacker.
+This lab teaches you how to use AWS CloudTrail to track account activity and identify who hacked the Café website.
 
 ---
 
-## Architectural Diagram
+## Architecture Diagram
+<img width="884" height="430" alt="image" src="https://github.com/user-attachments/assets/bc609547-a029-4db8-9098-5b93d3e01846" />
 
-![Placeholder for Architectural Diagram](./images/architectural-diagram.png)
-
----
-
-## Duration
-Approximately **75 minutes**.
 
 ---
 
-## Objectives
-After completing this activity, you will be able to:
-- Configure a CloudTrail trail.
-- Analyze CloudTrail logs using Linux utilities, AWS CLI, and Athena.
-- Import CloudTrail log data into Athena and query it.
-- Identify security issues and remediate them on AWS and EC2.
+## Task 1 – Modify Security Group & View Website
+1. Open **EC2 → Instances**  
+2. Select **Café Web Server**  
+3. Edit inbound rules → Add:  
+   - Type: SSH  
+   - Port: 22  
+   - Source: My IP (/32)  
+4. Visit the website:  
+   `http://<WebServerIP>/cafe/`
+
+<img width="1356" height="564" alt="image" src="https://github.com/user-attachments/assets/f730078f-c37f-4c5d-a63e-fbc5caaaab75" />
+
+<img width="1359" height="562" alt="image" src="https://github.com/user-attachments/assets/7d220ab1-fdba-4afb-95e6-b5c4c471276d" />
+
+<img width="1361" height="558" alt="image" src="https://github.com/user-attachments/assets/0cc31d83-1558-402b-9f0d-1f1e5902f4d4" />
+
+<img width="830" height="497" alt="image" src="https://github.com/user-attachments/assets/7e17f895-050f-48fe-848d-5ce1995cad06" />
+
+
+
+
 
 ---
 
-## Business Case
-The Café website was hacked. Martha and Frank rely on you to identify the hacker and ensure the system is secure. Faythe, Frank, Martha, and others often make changes to the website, and sometimes mistakes occur. Your role is to act as a detective and uncover the culprit using AWS CloudTrail and Athena.
+## Task 2 – Create CloudTrail Trail & Observe Hack
+1. Go to **CloudTrail → Trails → Create trail**  
+2. Trail name: `monitor`  
+3. S3 bucket: `monitoring####`  
+4. Refresh the website and observe the hacked image.
+
+<img width="1348" height="557" alt="image" src="https://github.com/user-attachments/assets/a92dd78f-6bb2-4e41-875f-336204bf132d" />
+
 
 ---
 
-## Activity Steps
-
-### Launching the Lab
-1. Click **Start Lab** and wait for **Lab status: ready**.
-2. Open the AWS Management Console in a new tab.
-3. Arrange the Console alongside these instructions for easy reference.
-
----
-
-### Task 1: Modifying a Security Group & Observing the Website
-1. Open **EC2 > Instances** and select **Café Web Server (WebSecurityGroup)**.
-2. Go to the **Security tab** > **Inbound rules**.
-3. Add a rule:
-   - Type: SSH
-   - Port Range: 22
-   - Source: My IP (/32)
-4. Save rules.
-5. Navigate to `http://<WebServerIP>/cafe/` and confirm the website appears normal.
-
----
-
-### Task 2: Creating a CloudTrail Log & Observing the Hack
-
-#### Task 2.1: Create CloudTrail Trail
-1. Go to **Management & Governance > CloudTrail > Trails > Create trail**.
-2. Configure:
-   - Trail name: `monitor`
-   - Create new S3 bucket: `monitoring####`
-   - AWS KMS alias: `<your-initials>-KMS`
-3. Choose **Next**, then **Create trail**.
-
-#### Task 2.2: Observe the Hack
-1. Refresh `http://<WebServerIP>/cafe/`.
-2. Notice unauthorized changes (SSH rule open to 0.0.0.0/0).
-
----
-
-### Task 3: Analyzing CloudTrail Logs with `grep` & AWS CLI
-
-#### 3.1: Connect via SSH
-- **Windows**: Use PuTTY with `labsuser.ppk`.
-- **macOS/Linux**: Use `ssh -i labsuser.pem ec2-user@<public-ip>`.
-
-#### 3.2: Download & Extract Logs
+## Task 3 – Analyze Logs Using Grep & AWS CLI
+### Download Logs
 ```bash
 mkdir ctraillogs
 cd ctraillogs
 aws s3 cp s3://<monitoring####>/ . --recursive
 gunzip *.gz
 ```
+<img width="651" height="410" alt="image" src="https://github.com/user-attachments/assets/adb31780-39ff-4c06-95c6-68c5454e52a9" />
 
-#### 3.3: Analyze Logs with `grep`
-- Filter by IP:
+<img width="1303" height="249" alt="image" src="https://github.com/user-attachments/assets/3e479c70-b298-4871-be60-2e6247958bef" />
+
+<img width="646" height="418" alt="image" src="https://github.com/user-attachments/assets/843e55b0-cce4-48fa-ab0c-353eef413b90" />
+
+
+
+
+### Search for Events
 ```bash
-ip=<WebServerIP>
-for i in $(ls); do echo $i && cat $i | python -m json.tool | grep sourceIPAddress ; done
-```
-- Filter event names:
-```bash
-for i in $(ls); do echo $i && cat $i | python -m json.tool | grep eventName ; done
+for i in $(ls); do cat $i | python -m json.tool | grep eventName ; done
 ```
 
-#### 3.4: Analyze Logs with AWS CLI
+### Look Up Security Group Events
 ```bash
-region=$(curl http://169.254.169.254/latest/dynamic/instance-identity/document|grep region | cut -d '"' -f4)
-sgId=$(aws ec2 describe-instances --filters "Name=tag:Name,Values='Cafe Web Server'" --query 'Reservations[*].Instances[*].SecurityGroups[*].[GroupId]' --region $region --output text)
-aws cloudtrail lookup-events --lookup-attributes AttributeKey=ResourceType,AttributeValue=AWS::EC2::SecurityGroup --region $region --output text | grep $sgId
+aws cloudtrail lookup-events \
+--lookup-attributes AttributeKey=ResourceType,AttributeValue=AWS::EC2::SecurityGroup
 ```
+
+📷 **Placeholder:** `./images/task3.png`
 
 ---
 
-### Task 4: Analyzing Logs with Athena
-
-#### 4.1: Create Athena Table
-1. Go to **CloudTrail > Event History > Create Athena Table**.
-2. Set the storage location to `s3://monitoring####/`.
-3. Review **CREATE TABLE** statement and create table.
-
-#### 4.2: Query Logs
-- Basic query (first 5 rows):
+## Task 4 – Analyze Logs in Athena
+### Example SQL Queries
 ```sql
-SELECT * FROM cloudtrail_logs_monitoring#### LIMIT 5;
+SELECT *
+FROM cloudtrail_logs_monitoring####
+LIMIT 5;
 ```
-- User-focused query:
+
 ```sql
-SELECT useridentity.userName, eventtime, eventsource, eventname, requestparameters
+SELECT useridentity.userName, eventtime, eventsource, eventname
 FROM cloudtrail_logs_monitoring####
 LIMIT 30;
 ```
 
-#### Challenge: Identify the Hacker
-- Filter by security events, EC2 events, or suspicious actions.
-- Example query:
-```sql
-SELECT DISTINCT useridentity.userName, eventName, eventSource
-FROM cloudtrail_logs_monitoring####
-WHERE from_iso8601_timestamp(eventtime) > date_add('day', -1, now())
-ORDER BY eventSource;
-```
-- Determine:
-  - Hacker AWS username
-  - Time of hack
-  - IP address
-  - Access method (console/programmatic)
-
-![Placeholder for Athena Query Screenshot](./images/athena-query.png)
+📷 **Placeholder:** `./images/athena.png`
 
 ---
 
-### Task 5: Remediate & Secure
-
-#### 5.1: Check OS Users
+## Task 5 – Remove Hacker & Secure System
+### Check Logged-In Users
 ```bash
 sudo aureport --auth
 who
-sudo userdel -r chaos-user
-sudo kill -9 <ProcNum>
 ```
 
-#### 5.2: Update SSH Security
+### Remove Hacker User & Process
+```bash
+sudo userdel -r chaos-user
+sudo kill -9 <PID>
+```
+
+### Disable Password SSH Access
 ```bash
 sudo vi /etc/ssh/sshd_config
-# Comment out PasswordAuthentication yes
-# Uncomment PasswordAuthentication no
 sudo service sshd restart
 ```
-- Remove the unauthorized inbound SSH rule in EC2 security group.
 
-#### 5.3: Restore Website
+### Restore Website Image
 ```bash
 cd /var/www/html/cafe/images/
 sudo mv Coffee-and-Pastries.backup Coffee-and-Pastries.jpg
 ```
-- Refresh the website to confirm restoration.
 
-#### 5.4: Delete AWS Hacker User
-- Go to **IAM > Users**, select **chaos**, choose **Delete**.
-
-![Placeholder for Security Fix Screenshot](./images/security-fix.png)
+📷 **Placeholder:** `./images/task5.png`
 
 ---
 
 ## Summary
-- Successfully created CloudTrail trail.
-- Identified and removed the hacker.
-- Analyzed logs via Linux `grep`, AWS CLI, and Athena.
-- Restored website and updated security.
+- CloudTrail created  
+- Logs analyzed with grep, AWS CLI, and Athena  
+- Hacker identified and removed  
+- Website restored and SSH secured  
 
-![Placeholder for Final Result Screenshot](./images/final-result.png)
+---
+
+## Placeholder Image List
+Place these in `./images/`:
+
+```
+architecture.png
+task1.png
+task2.png
+task3.png
+athena.png
+task5.png
+```
