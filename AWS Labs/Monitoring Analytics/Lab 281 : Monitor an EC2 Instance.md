@@ -43,6 +43,10 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 <img width="1364" height="566" alt="image" src="https://github.com/user-attachments/assets/2cd348bb-1e0a-41e3-9538-b44d977c126f" />
 <img width="1365" height="564" alt="image" src="https://github.com/user-attachments/assets/2a4b1f52-fbbd-4ca1-8ea4-adcb9453260a" />
 <img width="1358" height="565" alt="image" src="https://github.com/user-attachments/assets/8df1ab1a-fb5f-41fd-bdf3-351bf5cbb278" />
+<img width="1359" height="554" alt="image" src="https://github.com/user-attachments/assets/46ec47ba-9243-451d-9af0-d92c30f58957" />
+<img width="1365" height="560" alt="image" src="https://github.com/user-attachments/assets/cb186390-06ed-426e-bab2-1f420f0901e9" />
+
+
 
 
 
@@ -72,7 +76,8 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
    top
 3. View the alarm change to "In alarm" (red) on CloudWatch.
 
-[PLACEHOLDER: Stress Test Screenshot]
+<img width="1346" height="582" alt="image" src="https://github.com/user-attachments/assets/b146da66-9763-42f2-9dfd-dd8f35243dae" />
+
 
 ---
 
@@ -93,7 +98,8 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 4. Add the CPUUtilization metric.
 5. Save the dashboard.
 
-[PLACEHOLDER: Dashboard Screenshot]
+<img width="1346" height="552" alt="image" src="https://github.com/user-attachments/assets/ab2c36a0-8134-4109-b760-7f9e778c0ebd" />
+
 
 ---
 
