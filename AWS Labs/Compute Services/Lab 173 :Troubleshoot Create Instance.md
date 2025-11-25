@@ -17,7 +17,7 @@ When you create the instance, you will reference a user data script to configure
 * Launch an EC2 instance using AWS CLI.
 * Troubleshoot AWS CLI commands and EC2 service settings using **basic troubleshooting tips** and the **nmap utility**.
 
-**Estimated Duration:** ~45 minutes
+
 
 ---
 
@@ -29,7 +29,10 @@ When you create the instance, you will reference a user data script to configure
 4. You are now connected and can run AWS CLI commands.
 
 **Screenshot Placeholder:**
-![Connect to CLI Host](./images/placeholder.png)
+<img width="1364" height="562" alt="image" src="https://github.com/user-attachments/assets/19cc9179-101e-4edc-b844-178186f9e9c1" />
+<img width="1365" height="559" alt="image" src="https://github.com/user-attachments/assets/7ca299b8-a13c-43c9-a5db-b9e286828bc8" />
+<img width="1365" height="558" alt="image" src="https://github.com/user-attachments/assets/9f3af3f7-f462-4c23-8c62-fed3a2a34da7" />
+
 
 ---
 
@@ -49,7 +52,8 @@ aws configure
 * **Default output format:** `json`
 
 **Screenshot Placeholder:**
-![AWS CLI configure](./images/placeholder.png)
+<img width="1361" height="469" alt="image" src="https://github.com/user-attachments/assets/bec0d7c4-e007-4067-b05a-ec6b6f8412a6" />
+
 
 ---
 
