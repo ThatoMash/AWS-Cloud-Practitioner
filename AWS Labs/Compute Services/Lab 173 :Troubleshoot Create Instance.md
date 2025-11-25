@@ -7,7 +7,8 @@ In this activity, you use the AWS Command Line Interface (AWS CLI) to launch Ama
 When you create the instance, you will reference a user data script to configure the instance with an Apache web server, MariaDB, and PHP—commonly known as a **LAMP stack**. The instance will host the **Café Web Application**.
 
 **Diagram Placeholder:**
-![Insert architecture diagram here](./images/placeholder.png)
+<img width="642" height="355" alt="image" src="https://github.com/user-attachments/assets/c293d3d7-2ed8-4420-9309-d9aebf7ee154" />
+
 
 ---
 
