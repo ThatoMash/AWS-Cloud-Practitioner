@@ -47,15 +47,6 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 <img width="1365" height="560" alt="image" src="https://github.com/user-attachments/assets/cb186390-06ed-426e-bab2-1f420f0901e9" />
 
 
-
-
-
-
-
-
-
----
-
 # Task 3: Connect to EC2 and Install Tools
 
 1. Connect to the EC2 instance using EC2 Instance Connect or Session Manager.
@@ -101,18 +92,6 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 <img width="1346" height="552" alt="image" src="https://github.com/user-attachments/assets/ab2c36a0-8134-4109-b760-7f9e778c0ebd" />
 
 
----
-
-# Task 7: Stop Stress Test and Clear Alarm
-
-1. Stop the stress test:
-   Press CTRL + C
-2. Wait 2–3 minutes for CPU to drop.
-3. Alarm will return to OK (green).
-
-[PLACEHOLDER: Alarm Recovery Screenshot]
-
----
 
 # Summary
 
