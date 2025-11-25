@@ -91,6 +91,9 @@ In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dash
 
 <img width="1346" height="552" alt="image" src="https://github.com/user-attachments/assets/ab2c36a0-8134-4109-b760-7f9e778c0ebd" />
 
+<img width="1365" height="568" alt="image" src="https://github.com/user-attachments/assets/883037b3-8984-421a-8a28-59708a477188" />
+
+
 
 
 # Summary
