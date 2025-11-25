@@ -91,7 +91,8 @@ cat create-lamp-instance-userdata-v2.txt
 ```
 
 **Screenshot Placeholder:**
-![Script Observation](./images/placeholder.png)
+<img width="1365" height="553" alt="image" src="https://github.com/user-attachments/assets/fb37ffc8-d1ee-4ec3-b8fc-bb1130314abb" />
+
 
 ---
 
@@ -106,7 +107,10 @@ Run the script:
 * The script may fail intentionally; this is expected for troubleshooting.
 
 **Screenshot Placeholder:**
-![Script Run](./images/placeholder.png)
+<img width="1356" height="567" alt="image" src="https://github.com/user-attachments/assets/0cc239ff-a293-4508-9d77-a6815e9edb0d" />
+<img width="1365" height="559" alt="image" src="https://github.com/user-attachments/assets/6f036ed3-f943-4214-8708-57f7fd2bbe68" />
+
+
 
 ---
 
@@ -160,7 +164,8 @@ sudo tail -f /var/log/cloud-init-output.log
 * Exit tail: `Ctrl-C`
 
 **Screenshot Placeholder:**
-![Cloud-init logs](./images/placeholder.png)
+<img width="1352" height="367" alt="image" src="https://github.com/user-attachments/assets/8efe247e-2b8d-41c4-aefa-53740680311a" />
+
 
 ---
 
