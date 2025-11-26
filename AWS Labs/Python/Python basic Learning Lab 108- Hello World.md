@@ -1,7 +1,5 @@
 # Hello, World! Program – Lab README
 
-![PLACEHOLDER](path/to/image.png)
-
 ## **Lab Overview**
 
 Welcome to **Introduction to Programming** using **Python**. In this lab, you will:
