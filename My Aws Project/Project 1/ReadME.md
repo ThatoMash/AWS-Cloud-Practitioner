@@ -53,7 +53,10 @@ Nastro Bliss is a beloved local restaurant specializing in grill and fire menu i
   - Challenges and impact
   - Proposed AWS solution
   - Cost analysis
-  - Benefits of migration  
+  - Benefits of migration
+
+ ###   click here for Presentation Slides
+        PRESENTANTION
 
 **Visual placeholders:**
 <img width="518" height="349" alt="image" src="https://github.com/user-attachments/assets/981f653e-fa26-4ce0-94f0-81fe2c6d4378" />
