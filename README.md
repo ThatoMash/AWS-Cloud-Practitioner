@@ -1,5 +1,5 @@
 <div style="background-color:#1e90ff; padding:20px; display:inline-block; border-radius:10px;">
-  <a href="https://www.linkedin.com/in/thato-p-mashimbi/" target="_blank">
+  <a href="www.linkedin.com/in/thato-precious-41221679/" target="_blank">
     <img src="https://media.licdn.com/dms/image/v2/D4D03AQHV0YK27HBDCA/profile-displayphoto-scale_200_200/B4DZjCQxpHH0Ac-/0/1755605836880?e=1764806400&v=beta&t=KU4P40S_vxpWi5ao326nEczQ93iFV7qkPy9gi8AAA9w" width="250">
   </a>
 </div>
