@@ -55,7 +55,8 @@ Nastro Bliss is a beloved local restaurant specializing in grill and fire menu i
   - Cost analysis
   - Benefits of migration
 
-### View the Presentation Slides:![Slides]()
+### View the Presentation Slides:[Nastro Bliss Presentation](./My%20Aws%20Project/Project%201/Nastro_Bliss_PRESENTATION%20FILE.pptx)
+
         PRESENTANTION
 
 **Visual placeholders:**
