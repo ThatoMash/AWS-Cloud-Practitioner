@@ -57,7 +57,7 @@ Nastro Bliss is a beloved local restaurant specializing in grill and fire menu i
 
 
 - 📄 **View/Download Presentation:**
-  [Nastro Bliss Presentation](My-Aws-Projects/ProjectS-1/Nastro_Bliss_PRESENTATION_FILE.pptx?raw=true)
+  [Nastro Bliss Presentation](/Nastro_Bliss_PRESENTATION_FILE.pptx?raw=true)
 
         PRESENTANTION
 
