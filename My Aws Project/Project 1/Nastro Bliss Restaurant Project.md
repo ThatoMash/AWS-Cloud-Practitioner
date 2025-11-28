@@ -1,6 +1,7 @@
 # Nastro Bliss Restaurant Website & AWS Deployment Demonstration
 
-![Project Banner Placeholder](#)
+<img width="428" height="418" alt="image" src="https://github.com/user-attachments/assets/5a650d7b-480f-4dc4-8e1b-8e751e21c8e0" />
+
 
 ## Introduction
 This project demonstrates the development of a **static website for Nastro Bliss**, a contemporary African cuisine restaurant based in Johannesburg.  
