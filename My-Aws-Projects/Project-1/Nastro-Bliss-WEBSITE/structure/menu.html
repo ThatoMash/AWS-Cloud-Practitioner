@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Nastro Bliss Restaurant</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nastro Bliss Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="booking.html">Book a Table</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="tab-button active" onclick="showCategory('meals')">Meals</button>
+                <button class="tab-button" onclick="showCategory('drinks')">Drinks</button>
+                <button class="tab-button" onclick="showCategory('desserts')">Desserts</button>
+            </div>
+            <div id="meals" class="menu-category">
+                <h3>Meals</h3>
+                <div class="menu-item">
+                    <img src="../images/pasta.jpeg" alt="Pasta Primavera">
+                    <h4>Pasta Primavera</h4>
+                    <p>Fresh vegetables and pasta in a light sauce.</p>
+                    <p class="price">R90.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/salmon fish.jpeg" alt="Grilled Salmon">
+                    <h4>Grilled Salmon</h4>
+                    <p>Perfectly grilled salmon with herbs.</p>
+                    <p class="price">R68.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/steak.webp" alt="Beef Steak">
+                    <h4>Beef Steak</h4>
+                    <p>Juicy steak cooked to perfection.</p>
+                    <p class="price">R122.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app1.jpg" alt="Original pizza">
+                    <h4>Original pizza</h4>
+                    <p>Variety of pizza to choose from</p>
+                    <p class="price">R85.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app2.jpg" alt="Bliss famous steak spare meaty">
+                    <h4>Bliss famous steak spare meaty</h4>
+                    <p>Secculent pork spare steak marinated<br>in our great-tasting Bliss basting</p>
+                    <p class="price">R75.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app3.jpg" alt="Gourmet Burger and pizza">
+                    <h4>Gourmet Burger and pizza</h4>
+                    <p>topped with melted cheese,<br>grilled bacon and juicy beef patty,<br>guacamole and chips</p>
+                    <p class="price">R110.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app10.jpg" alt="Crumbed mushroom full & Juicy Steak">
+                    <h4>Crumbed mushroom full & Juicy Steak</h4>
+                    <p>coated in panko crumbs, fried until<br>golden brown and served with our tangy<br>white sauce and fried mash<br>mellow for personality</p>
+                    <p class="price">R95.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app5.jpg" alt="Chicken, avo and bacon salad">
+                    <h4>Chicken, avo and bacon salad</h4>
+                    <p>Garden salad topped with avocado,<br>grilled chicken breast, grilled<br>bacon pieces and sautéed mushrooms<br>and crispy croutons and boiled eggs</p>
+                    <p class="price">R80.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app8.jpg" alt="African Cruisine">
+                    <h4>African Cruisine</h4>
+                    <p>creamy, buttered mash with<br>slow cook pork hock, crispy on<br>the outside but tender on the inside</p>
+                    <p class="price">R88.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/app9.jpg" alt="New York sirloin 200G">
+                    <h4>New York sirloin 200G</h4>
+                    <p>the tastiest cut of pork</p>
+                    <p class="price">R92.00</p>
+                </div>
+            </div>
+            <div id="drinks" class="menu-category" style="display: none;">
+                <h3>Drinks</h3>
+                <div class="menu-item">
+                    <img src="../images/drink1.jpg" alt="Lemonade">
+                    <h4>Lemonade</h4>
+                    <p class="price">R20.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink2.jpg" alt="Ice tea">
+                    <h4>Ice tea</h4>
+                    <p class="price">R15.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink3.jpg" alt="Aperol Spritz orange juice">
+                    <h4>Aperol Spritz orange juice</h4>
+                    <p class="price">R25.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink4.jpg" alt="Apple juice with lemon">
+                    <h4>Apple juice with lemon</h4>
+                    <p class="price">R18.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink5.jpg" alt="Red Berry Juice">
+                    <h4>Red Berry Juice</h4>
+                    <p class="price">R30.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink6.jpg" alt="Coffee">
+                    <h4>Coffee</h4>
+                    <p class="price">R12.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink7.jpg" alt="Cocktail">
+                    <h4>Cocktail</h4>
+                    <p class="price">R45.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/drink8.jpg" alt="Cinnamon juice">
+                    <h4>Cinnamon juice</h4>
+                    <p class="price">R50.00</p>
+                </div>
+            </div>
+            <div id="desserts" class="menu-category" style="display: none;">
+                <h3>Desserts</h3>
+                <div class="menu-item">
+                    <img src="../images/dessert1.jpg" alt="Chocolate Cake">
+                    <h4>Chocolate Cake</h4>
+                    <p class="price">R35.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert2.jpg" alt="Ice Cream">
+                    <h4>Creamy Vanilla and Strawberry Ice Cream.</h4>
+                    <p class="price">R45.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert3.jpg" alt="Cheesecake">
+                    <h4>Black Forest Trifle</h4>
+                    <p class="price">R40.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert4.jpeg" alt="Tiramisu">
+                    <h4>Tiramisu</h4>
+                    <p>Classic Italian dessert.</p>
+                    <p class="price">R65.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert5.webp" alt="Pudding">
+                    <h4>Pudding</h4>
+                    <p>Smooth chocolate pudding.</p>
+                    <p class="price">R50.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert6.jpg" alt="Pie">
+                    <h4>Dessert Shooters</h4>
+                    <p class="price">R70.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert7.jpg" alt="Mousse">
+                    <h4>Strawberry Shortcake</h4>
+                    <p class="price">R45.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert8.jpg" alt="Fruit Tart">
+                    <h4>Fruit Tart</h4>
+                    <p>Fresh fruit tart with custard.</p>
+                    <p class="price">R32.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/dessert9.jpg" alt="Brownie">
+                    <h4>Brownie</h4>
+                    <p>Rich Caramel brownie and Strawberry.</p>
+                    <p class="price">R55.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Nastro Bliss Restaurant. All rights reserved.</p>
+    </footer>
+    <script src="../script/script.js"></script>
+</body>
+</html>
