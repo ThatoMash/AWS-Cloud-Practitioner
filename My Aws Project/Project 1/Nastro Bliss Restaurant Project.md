@@ -1,37 +1,55 @@
-# Restaurant Website Project & AWS Deployment Demonstration
+# Nastro Bliss Restaurant Website & AWS Deployment Demonstration
 
 ![Project Banner Placeholder](#)
 
 ## Introduction
-This project demonstrates the development of a **static website for a restaurant** and highlights the benefits of hosting it on AWS.  
-The goal is to improve customer interactions by providing an online platform for menu browsing, booking reservations, and submitting orders. Additionally, this project showcases how cloud services can streamline operations, reduce errors, and support scalability for growing businesses.
+This project demonstrates the development of a **static website for Nastro Bliss**, a contemporary African cuisine restaurant based in Johannesburg.  
+The goal is to improve customer interactions by providing an online platform for menu browsing, booking reservations, and submitting orders. Additionally, this project showcases the benefits of hosting on **AWS**, emphasizing reliability, cost-effectiveness, and operational efficiency.
 
-By building this project, we explore key AWS services such as **S3, CloudFront, Route 53, and CloudWatch**, and demonstrate a practical example of cloud migration benefits.
+By building this project, we explore key AWS services such as **S3, Route 53, CloudFront, IAM, and SES**, demonstrating a practical example of cloud migration benefits for small businesses.
+
+---
+
+## Restaurant Overview: Nastro Bliss
+Nastro Bliss is a beloved local restaurant specializing in grill and fire menu items. It serves local residents, corporate clients, and tourists looking to experience contemporary African cuisine.  
+
+### Current Operational Challenges
+- **Booking Confusion**: Reservations through phone, walk-ins, or social media often get lost or double-booked.  
+- **Order Mix-ups**: Orders placed verbally or via text frequently lead to incorrect items or forgotten requests.  
+- **No Digital Presence**: Without an organized online platform, customers cannot easily access menus, hours, or availability.
+
+### Business Impact
+| Metric | Impact |
+|--------|--------|
+| Lost Revenue | Customers turn to competitors with better online booking systems (~30%) |
+| Staff Time Wasted | Hours spent managing manual bookings and resolving order errors (~40%) |
+| Customer Satisfaction | Negative reviews from booking mix-ups and incorrect orders (~25%) |
 
 ---
 
 ## Project Deliverables
 
 ### Static Website
-- Fully functional static website hosted on AWS
-- Main features:
+- Fully functional static website hosted on **AWS S3**
+- Key features:
   - Home Page
   - Menu Page
   - Booking Page
   - Order Submission Form
-  - Confirmation Page
+  - Confirmation Page  
 
-**Placeholders for visuals:**
+**Visual placeholders:**
 - ![Website Home Page Placeholder](#)  
 - ![Menu Page Placeholder](#)  
 - ![Booking Form Screenshot Placeholder](#)  
 
-### AWS Services Presentation
-- Slide deck presenting:
-  - Overview of the restaurant
-  - Operational challenges
-  - AWS services used
-  - Advantages of cloud migration
+### AWS Migration Presentation
+- Slides covering:
+  - Restaurant overview
+  - Challenges and impact
+  - Proposed AWS solution
+  - Cost analysis
+  - Benefits of migration  
 
 **Visual placeholders:**
 - ![Architecture Diagram Placeholder](#)  
@@ -48,8 +66,9 @@ By building this project, we explore key AWS services such as **S3, CloudFront, 
 - Example: ![Website Preview Placeholder](#)
 
 ### Functionality
-- Online booking and order forms
-- Confirmation page to provide feedback to customers  
+- Centralized **online booking system** with instant confirmation  
+- Digital menu & online ordering capabilities  
+- Real-time updates for hours, location, and availability  
 - Hosted images stored in **Amazon S3**  
 
 ---
@@ -60,17 +79,24 @@ By building this project, we explore key AWS services such as **S3, CloudFront, 
 | Requirement | AWS Service | Purpose |
 |-------------|------------|---------|
 | Host website | S3 | Static website hosting & image storage |
-| Global content delivery | CloudFront | Faster load times worldwide |
 | Domain management | Route 53 | Custom domain setup |
-| Monitoring | CloudWatch | Logs and resource monitoring |
-| Security | IAM / S3 Policies | Access control for resources |
+| Content delivery | CloudFront | Faster load times worldwide |
+| Access control | IAM | Security and access management |
+| Email notifications | SES | Optional email confirmations and notifications |
 
-### Benefits of Hosting on AWS
-- Reliable uptime and availability  
-- Reduced operational errors  
-- Easy scaling to handle more customers  
-- Cost-effective hosting solution  
-- Better customer experience through responsive and fast-loading website
+### Estimated Monthly Costs
+| Service | Cost |
+|---------|------|
+| S3 | R818–854 |
+| Route 53 | R8.75/month + R210/year domain registration |
+| CloudFront | R35 |
+| SES | < R17.50 for first 1,000 emails |
+| **Total** | ~R175/month |
+
+### Security & Reliability
+- **Data Protection**: AWS provides high-level security to protect customer data.  
+- **Compliance Ready**: Infrastructure follows best practices for data handling.  
+- **Automatic Backups**: Customer reservations and orders are safely backed up.
 
 ---
 
