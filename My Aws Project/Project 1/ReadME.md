@@ -56,8 +56,8 @@ Nastro Bliss is a beloved local restaurant specializing in grill and fire menu i
   - Benefits of migration  
 
 **Visual placeholders:**
-- ![Architecture Diagram Placeholder](#)  
-- ![Slide Screenshot Placeholder](#)
+<img width="518" height="349" alt="image" src="https://github.com/user-attachments/assets/981f653e-fa26-4ce0-94f0-81fe2c6d4378" />
+  
 
 ---
 
@@ -109,3 +109,40 @@ https://github.com/user-attachments/assets/5d0c5cab-f38e-4427-994f-a80ce93610ac
 ---
 
 ## Project Structure
+
+
+---
+
+## Deployment Steps
+1. Upload website files to **S3**  
+2. Enable **Static Website Hosting**  
+3. Configure **Bucket Policy** for public access  
+4. Use **CloudFront** for fast global delivery  
+5. Connect domain using **Route 53**  
+
+---
+
+## Testing & Observations
+- Forms tested for correct submission  
+- Website content and media load properly from S3  
+- Booking confirmations and menu access verified  
+- CloudWatch used to monitor resource usage and availability  
+
+---
+
+## Conclusion
+This project demonstrates how Nastro Bliss can:
+- Streamline bookings and order management  
+- Reduce operational errors and staff workload  
+- Improve customer satisfaction and increase revenue  
+- Leverage **AWS** for reliability, scalability, and cost-efficiency  
+
+
+
+## Next Steps / Future Improvements
+- Add **online payment integration**  
+- Introduce **loyalty program features**  
+- Enhance customer analytics and reporting  
+- Automate website deployment via **AWS CI/CD tools**  
+- Explore mobile app integration for bookings and orders
+
