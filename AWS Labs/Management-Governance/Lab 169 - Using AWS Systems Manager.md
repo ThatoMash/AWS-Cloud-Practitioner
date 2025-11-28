@@ -23,11 +23,27 @@ Used **Fleet Manager** to collect operating system, application, and metadata fr
 - Able to review all installed applications and configuration settings remotely.  
 
 **Screenshot Placeholder:**  
-![Fleet Manager Inventory](path/to/fleet_manager_inventory.png)
+<img width="1352" height="555" alt="image" src="https://github.com/user-attachments/assets/983678bc-10e1-441a-b022-c8a719916f82" />
 
----
+<img width="1286" height="550" alt="image" src="https://github.com/user-attachments/assets/d2927c17-725e-451b-9c5e-36dea4893410" />
+
+<img width="1358" height="592" alt="image" src="https://github.com/user-attachments/assets/c0a83a29-fb7c-4c56-b041-7083cde4c04e" />
+
+<img width="1363" height="568" alt="image" src="https://github.com/user-attachments/assets/e5d73ee9-c15d-48c2-8f5e-50f405a9d1a6" />
+
+<img width="1078" height="515" alt="image" src="https://github.com/user-attachments/assets/4c9290ed-6097-4484-8202-579261803165" />
+
+<img width="1363" height="453" alt="image" src="https://github.com/user-attachments/assets/d8bc4d10-fdeb-4074-adc9-240681689240" />
+
+<img width="1359" height="564" alt="image" src="https://github.com/user-attachments/assets/8369231c-c106-4dbd-9ed8-14896f0c4d06" />
+
+<img width="1364" height="568" alt="image" src="https://github.com/user-attachments/assets/73baa6bf-ba30-4491-8036-cadf18b28cf5" />
+
 
 ## Task 2: Install Custom Web Application
+
+<img width="799" height="411" alt="image" src="https://github.com/user-attachments/assets/96a524d6-756b-4c24-ab1e-a44fd757da67" />
+
 
 **Overview:**  
 Used **Run Command** to remotely install the **Widget Manufacturing Dashboard** application on an EC2 instance.  
@@ -37,9 +53,19 @@ Used **Run Command** to remotely install the **Widget Manufacturing Dashboard** 
 - Verified application running via public IP.  
 
 **Screenshot Placeholder:**  
-![Dashboard Installed](path/to/dashboard_installed.png)
 
----
+<img width="1358" height="575" alt="image" src="https://github.com/user-attachments/assets/0266c03a-e488-45ab-9ef9-10dda41e59f1" />
+
+<img width="1356" height="567" alt="image" src="https://github.com/user-attachments/assets/8e67e3d0-81c2-46fd-861a-0961c30b7785" />
+
+<img width="1365" height="578" alt="image" src="https://github.com/user-attachments/assets/71a387d5-2fd7-4442-921c-3f93a552f7ad" />
+
+<img width="1361" height="564" alt="image" src="https://github.com/user-attachments/assets/40fd053c-226d-4649-ab38-4a6161e53071" />
+
+<img width="1363" height="571" alt="image" src="https://github.com/user-attachments/assets/381568d3-bb44-49cd-b431-7a65cddd5be5" />
+
+<img width="1025" height="323" alt="image" src="https://github.com/user-attachments/assets/670c5d6e-8139-4b8f-8b6b-2553d2d38bff" />
+
 
 ## Task 3: Manage Application Settings via Parameter Store
 
@@ -51,11 +77,20 @@ Created a parameter `/dashboard/show-beta-features` to enable beta features in t
 - Verified live configuration updates in the running application.  
 
 **Screenshot Placeholder:**  
-![Parameter Store Feature](path/to/parameter_store_feature.png)
+<img width="1351" height="567" alt="image" src="https://github.com/user-attachments/assets/f7e97959-6483-4e81-8dc3-82ce6b5d51aa" />
 
----
+<img width="1364" height="577" alt="image" src="https://github.com/user-attachments/assets/45ad2e09-00ab-4a4a-8300-708aab66f678" />
+
+<img width="1365" height="319" alt="image" src="https://github.com/user-attachments/assets/7ea63c55-2c1c-48c1-9a89-d1e000a5adc2" />
+
+<img width="1012" height="267" alt="image" src="https://github.com/user-attachments/assets/a45c4fac-2768-48ee-8ee1-f3a902ad8e04" />
+
 
 ## Task 4: Access Instances with Session Manager
+
+
+<img width="797" height="319" alt="image" src="https://github.com/user-attachments/assets/a16314f7-6926-449f-8618-09607bdb90d5" />
+
 
 **Overview:**  
 Used **Session Manager** to securely access the EC2 instance without SSH.  
@@ -65,9 +100,12 @@ Used **Session Manager** to securely access the EC2 instance without SSH.
 - Verified secure, auditable access to instances with IAM control.  
 
 **Screenshot Placeholder:**  
-![Session Manager Access](path/to/session_manager_access.png)
+<img width="1359" height="575" alt="image" src="https://github.com/user-attachments/assets/6552ad0b-6250-4322-9715-28499e241bcf" />
+<img width="1365" height="564" alt="image" src="https://github.com/user-attachments/assets/05e04a40-42c0-4a30-9273-82ce1eabd0b8" />
+<img width="1364" height="573" alt="image" src="https://github.com/user-attachments/assets/02011939-59bf-441d-8616-fd36732ef598" />
+<img width="1359" height="597" alt="image" src="https://github.com/user-attachments/assets/5fd803ee-9e63-47c0-951f-fb8cbe3cbb33" />
+<img width="1353" height="603" alt="image" src="https://github.com/user-attachments/assets/5cf9d1db-6840-4ce6-98d9-a7ad0990cf7f" />
 
----
 
 ## Conclusion
 
