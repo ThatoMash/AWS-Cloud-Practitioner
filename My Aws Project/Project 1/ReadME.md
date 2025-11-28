@@ -40,10 +40,13 @@ Nastro Bliss is a beloved local restaurant specializing in grill and fire menu i
   - Confirmation Page  
 
 **Visual placeholders:**
-- ![Website Home Page Placeholder](#)  
-- ![Menu Page Placeholder](#)  
-- ![Booking Form Screenshot Placeholder](#)  
+<img width="1035" height="652" alt="image" src="https://github.com/user-attachments/assets/e0e4704a-cbdc-4931-82b4-1c9438511a15" />
 
+<img width="1027" height="648" alt="image" src="https://github.com/user-attachments/assets/db0b62ff-145a-49e6-870a-22798e847ce6" />
+
+<img width="1015" height="653" alt="image" src="https://github.com/user-attachments/assets/c5d42531-aba6-4f99-98b1-ba3d7a28aba1" />
+
+  
 ### AWS Migration Presentation
 - Slides covering:
   - Restaurant overview
@@ -64,7 +67,11 @@ Nastro Bliss is a beloved local restaurant specializing in grill and fire menu i
 - Clean and intuitive interface  
 - Minimal colours for readability  
 - Incorporates images, videos, and simple animations for engagement  
-- Example: ![Website Preview Placeholder](#)
+
+
+https://github.com/user-attachments/assets/5d0c5cab-f38e-4427-994f-a80ce93610ac
+
+
 
 ### Functionality
 - Centralized **online booking system** with instant confirmation  
