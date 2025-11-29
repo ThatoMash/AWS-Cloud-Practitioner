@@ -15,9 +15,7 @@ In this lab, you will:
 
 ---
 
-## **Lab Architecture**
-![EC2 Instance Architecture](./images/ec2-architecture.png)
-*Placeholder for EC2 instance architecture diagram*
+
 
 The Linux Host runs Python 3 and will execute the script to generate prime numbers.
 
@@ -77,38 +75,26 @@ By the end of this lab, you should be able to:
 ```bash
 nano prime_numbers.py
 
+lef is prime (n) :
+if n < 2:
+return False
+for i in range (2, int (n ** 0.5) + 1) :
+if n % i == 0:
+return False
+return True
+ith open ("results.txt", "w") as f:
+for number in range (1, 251) :
+if is prime (number) :
+print (number)
+f.write (str (number)
+if n < 2:
+return False
+for i in range (2, int (n ** 0.5) + 1) :
+if n % i == 0:
+return False
+return True
 
-
-
-prime_numbers = []
-
-
-for number in range(1, 251):
-    is_prime = True  
-
-    
-    if number < 2:
-        is_prime = False
-    else:
-        for i in range(2, number):
-            if number % i == 0:
-                is_prime = False
-                break  
-
-    
-    if is_prime:
-        prime_numbers.append(number)
-
-
-print("Prime numbers from 1 to 250 are:")
-print(prime_numbers)
-
-
-with open("results.txt", "w") as file:
-    for prime in prime_numbers:
-        file.write(str(prime) + "\n")
-
-print("The results have been saved to results.txt")
++ "\n") Eef is_prime (n) :
 
 
 ````
