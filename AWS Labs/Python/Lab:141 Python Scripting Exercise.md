@@ -47,6 +47,9 @@ By the end of this lab, you should be able to:
 
 ---
 
+<img width="398" height="304" alt="image" src="https://github.com/user-attachments/assets/0c184365-34c6-45a2-8040-c936acdb8f10" />
+
+
 ### **Step 3: Connect via SSH (Windows)**
 1. Download **labsuser.ppk** from the **Details** panel.
 2. Open **PuTTY**.
