@@ -94,6 +94,51 @@ service httpd start
 
 <img width="1349" height="567" alt="image" src="https://github.com/user-attachments/assets/4d40b20b-c101-4123-b5ab-53c9caaea923" />
 
+<img width="1357" height="558" alt="image" src="https://github.com/user-attachments/assets/12f917dc-03ae-49dd-9409-c961066723b9" />
+
+<img width="1359" height="568" alt="image" src="https://github.com/user-attachments/assets/a9cf9bd7-5ad5-4e3a-9018-bb2ab96f63f7" />
+
+
+
+4. Launch the instance.
+5. When status checks reach **2/2**, copy the **Public IPv4 DNS**.
+6. Open it in your browser — you should see the **success page**.
+
+<img width="1365" height="248" alt="image" src="https://github.com/user-attachments/assets/2ec245eb-3018-4b6e-a507-b57dab4db7f7" />
+
+<img width="1364" height="220" alt="image" src="https://github.com/user-attachments/assets/8843cd28-f940-444d-9157-6a1029740af3" />
+
+<img width="1355" height="565" alt="image" src="https://github.com/user-attachments/assets/3c6cd647-feb2-44e9-b983-1f343de4c250" />
+
+
+
+## **Recap**
+
+In this project you:
+
+* Built a complete AWS VPC architecture
+* Added public & private subnets
+* Configured secure networking and routing
+* Deployed a web server on EC2
+
+This forms the foundation for highly available cloud architectures.
+
+---
+
+## **Additional Resources**
+
+* AWS Docs: *What is Amazon VPC?*
+* AWS Docs: *Launch and connect to an EC2 instance*
+
+
+
+
+
+## **License**
+
+This project is provided for educational purposes.
+
+
 
 
 
