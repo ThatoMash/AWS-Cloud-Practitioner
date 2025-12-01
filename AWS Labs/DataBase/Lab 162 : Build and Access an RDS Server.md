@@ -52,9 +52,8 @@ Steps completed:
 
 <img width="661" height="411" alt="image" src="https://github.com/user-attachments/assets/865a10ee-8c5a-4c27-b4ef-b8b2d52f3c42" />
   
-*TODO: Add screenshot of SSH connection to LinuxServer*
+<img width="668" height="692" alt="image" src="https://github.com/user-attachments/assets/b49dd961-487e-403c-a047-4bb13d76639e" />
 
----
 
 ## 3. Create Tables and Insert Sample Data
 
