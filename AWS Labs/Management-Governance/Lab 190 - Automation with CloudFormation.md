@@ -1,10 +1,8 @@
 # Lab: Automation with CloudFormation
-
-This lab demonstrates deploying and managing AWS infrastructure using **CloudFormation** templates. You will learn how to create a VPC, Security Group, S3 bucket, and EC2 instance, then update and delete a stack.
-
+In this lab, I learned how to deploy and manage AWS infrastructure using CloudFormation templates. I practiced creating resources like a VPC, Security Group, S3 bucket, and EC2 instance through a template, and then I learned how to update and delete the stack, giving me hands-on experience with infrastructure as code.
 ---
 
-## 📋 Lab Objectives
+##  Lab Objectives
 
 - Deploy a CloudFormation stack with a **VPC** and **Security Group**  
 - Add an **S3 bucket** to an existing stack  
@@ -13,7 +11,7 @@ This lab demonstrates deploying and managing AWS infrastructure using **CloudFor
 
 ---
 
-## 🛠️ Lab Steps
+## Lab Steps
 
 ### Task 1: Deploy a CloudFormation Stack
 
