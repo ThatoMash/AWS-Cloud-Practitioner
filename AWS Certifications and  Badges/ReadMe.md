@@ -57,5 +57,3 @@ Worked with RDS databases, performed SQL queries, and connected databases secure
 - Web application deployment, troubleshooting, and database management  
 
 ---
-
-##  Repository Structure (Optional)
