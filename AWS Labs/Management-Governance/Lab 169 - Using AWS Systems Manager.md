@@ -2,13 +2,12 @@
 
 ## Introduction
 
-This repository demonstrates my hands-on work with **AWS Systems Manager**, a service that allows centralized management, automation, and secure access to AWS resources. The purpose of this lab was to:  
+This repository showcases my hands-on work with AWS Systems Manager, a service that enables centralized management, automation, and secure access to AWS resources. In this lab, I focused on:
 
-- Collect inventory from EC2 instances without SSH  
-- Install and configure applications remotely  
-- Manage application settings dynamically using Parameter Store  
-- Access instances securely via Session Manager  
-
+Collecting inventory from EC2 instances without needing SSH.
+Installing and configuring applications remotely.
+Managing application settings dynamically using Parameter Store.
+Accessing instances securely through Session Manager.
 These tasks highlight practical skills in **Compute Services**, **Management & Governance**, and **Security & Compliance** on AWS.  
 
 ---
