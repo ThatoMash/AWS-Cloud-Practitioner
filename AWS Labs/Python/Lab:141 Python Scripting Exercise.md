@@ -1,9 +1,11 @@
 # Challenge Lab:141 Python Scripting Exercise
 
-## **Introduction**
-This lab guides you through creating a Python script that finds all prime numbers between 1 and 250, displays them on the terminal, and saves the results to a file. The lab uses an Amazon EC2 Linux host and SSH for connecting.
+* Introduction**
+
 
 ---
+In this lab, I wrote a Python script to find all prime numbers from 1 to 250, displayed them in the terminal, and saved the results to a file. I used an Amazon EC2 Linux host, connected via SSH, and gained hands-on experience with Python scripting and remote server management.
+
 
 ## **Lab Overview**
 In this lab, you will:
@@ -14,8 +16,6 @@ In this lab, you will:
 - Verify that the script works as expected.
 
 ---
-
-
 
 The Linux Host runs Python 3 and will execute the script to generate prime numbers.
 
