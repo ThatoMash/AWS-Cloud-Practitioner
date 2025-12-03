@@ -1,18 +1,17 @@
 # Monitoring Infrastructure Lab
 
 ## Lab Overview
-Monitoring your applications and infrastructure is critical for delivering reliable IT services. This lab demonstrates how to use **Amazon CloudWatch** and **AWS Config** to monitor EC2 instances, application logs, system metrics, real-time notifications, and infrastructure compliance.
 
-**Objectives:**
-- Install the CloudWatch agent on EC2 instances.
-- Monitor application logs using CloudWatch Logs.
-- Monitor system metrics using CloudWatch Metrics.
-- Create real-time notifications using CloudWatch Events.
-- Track infrastructure compliance using AWS Config.
+Monitoring my applications and infrastructure is essential for delivering reliable IT services. In this lab, I learned how to use Amazon CloudWatch and AWS Config to monitor EC2 instances, application logs, system metrics, receive real-time notifications, and ensure infrastructure compliance.
+
+During the lab, I was able to:
+
+Install the CloudWatch agent on EC2 instances.
+Monitor application logs using CloudWatch Logs.
+Track system metrics through CloudWatch Metrics.
+Set up real-time notifications with CloudWatch Events.
+Monitor infrastructure compliance using AWS Config.
 <img width="668" height="202" alt="image" src="https://github.com/user-attachments/assets/d22d6bf3-f37d-4f45-9012-ce68237db78f" />
-
-
-
 
 ---
 
