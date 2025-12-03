@@ -1,26 +1,18 @@
 # AWS S3: Creating a Static Website with AWS CLI
 
-![AWS](https://img.shields.io/badge/AWS-S3-orange?style=for-the-badge&logo=amazon-aws)
-![CLI](https://img.shields.io/badge/AWS-CLI-blue?style=for-the-badge&logo=gnu-bash)
-![IAM](https://img.shields.io/badge/AWS-IAM-red?style=for-the-badge&logo=amazon-aws)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-
 ## 📋 Project Overview
 
-This lab demonstrates deploying a static website to Amazon S3 using AWS CLI. The project covers bucket creation, IAM user management, static website hosting, file uploads, and deployment automation using bash scripts.
+In this lab, I deployed a static website to Amazon S3 using the AWS CLI. During the project, I created S3 buckets, managed IAM users, enabled static website hosting, uploaded files, and automated deployments using bash scripts, gaining practical experience with S3-based website hosting and automation.
 
 ## 🎯 Objectives
 
-- ✅ Configure AWS CLI and create S3 buckets
-- ✅ Manage IAM users and permissions programmatically
-- ✅ Enable static website hosting on S3
-- ✅ Upload website files with public access
-- ✅ Create automated deployment scripts
-- ✅ Implement efficient file synchronization
+ Configure AWS CLI and create S3 buckets
+ Manage IAM users and permissions programmatically
+ Enable static website hosting on S3
+ Upload website files with public access
+ Create automated deployment scripts
+ Implement efficient file synchronization
 
-## ⏱️ Duration
-
-**Approximately 45 minutes**
 
 ##  Architecture
 
