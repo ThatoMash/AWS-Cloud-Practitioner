@@ -18,12 +18,11 @@ The final setup includes:
 ---
 
 ## Objectives
-After completing this lab, you should be able to:
+After completing this lab, I was able to:
 
-- Configure a Route 53 health check that sends emails when an HTTP endpoint becomes unhealthy.
-- Configure failover routing in Route 53.
+Configure a Route 53 health check that sends email notifications when an HTTP endpoint becomes unhealthy.
 
-
+Set up failover routing in Route 53 to automatically redirect traffic to a backup instance when the primary becomes unavailable.
 
 ## Lab Steps
 
