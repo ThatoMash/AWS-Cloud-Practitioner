@@ -1,13 +1,9 @@
 # Challenge Lab: Build Your DB Server and Interact With Your DB
 
-![AWS](https://img.shields.io/badge/AWS-RDS-orange?style=for-the-badge&logo=amazon-aws)
-![Database](https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql)
-![SQL](https://img.shields.io/badge/SQL-Queries-green?style=for-the-badge&logo=postgresql)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ## 📋 Lab Overview
 
-This challenge lab demonstrates creating, configuring, and interacting with an Amazon RDS database instance. You'll set up a managed MySQL database, configure security, connect from an EC2 instance, and execute SQL queries.
+This challenge lab showed me how to create, configure, and interact with an Amazon RDS database instance. During the lab, I set up a managed MySQL database, configured its security settings, connected to it from an EC2 instance, and ran SQL queries to interact with the data.
 
 ## 🎯 Objectives
 
@@ -20,7 +16,7 @@ This challenge lab demonstrates creating, configuring, and interacting with an A
 
 **Approximately 30-45 minutes**
 
-## 🏗️ Architecture
+##  Architecture
 
 ![architectureL](https://github.com/user-attachments/assets/c94ed70f-5865-4b0c-b04d-0f1e279cc941)
 
