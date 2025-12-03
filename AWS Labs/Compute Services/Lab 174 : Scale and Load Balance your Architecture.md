@@ -1,19 +1,19 @@
 # Scaling and Load Balancing Your Architecture Lab
 
 ## Introduction
-This lab demonstrates how to **design a scalable and fault-tolerant architecture** using **Amazon EC2, Elastic Load Balancing (ELB), and Auto Scaling**.  
-You will learn how to:  
-- Launch EC2 instances and create a reusable **AMI**.  
-- Deploy an **Application Load Balancer** to distribute traffic.  
-- Configure **Launch Templates** and **Auto Scaling Groups** for automated scaling.  
-- Monitor performance using **CloudWatch alarms**.  
+This lab shows how I designed a scalable and fault-tolerant architecture using Amazon EC2, an Elastic Load Balancer (ELB), and Auto Scaling. Throughout the lab, I worked step-by-step to build an environment that can automatically handle traffic changes, maintain availability, and recover from failures.
 
+During this activity, I learned how to:
+
+Launch EC2 instances and create a reusable AMI for consistent deployments.
+Deploy an Application Load Balancer (ALB) to distribute incoming traffic evenly across instances.
+Configure Launch Templates and Auto Scaling Groups so new instances can be created automatically whenever demand increases or decreases.
+Monitor the system’s performance by setting up CloudWatch alarms, which trigger scaling actions when needed.
 This lab is ideal for understanding how AWS handles **dynamic workloads** and ensures **high availability**.
 
----
-
 ## Overview
-In this lab, you will learn how to **distribute traffic** across multiple EC2 instances and **automatically scale** your infrastructure using ELB and Auto Scaling.
+
+In this lab, I learned how to distribute traffic across multiple EC2 instances and automatically scale my infrastructure using an Elastic Load Balancer (ELB) and Auto Scaling. This helped me understand how to keep applications highly available, responsive, and able to handle changes in demand without manual intervention.
 
 **Key Benefits:**
 - **ELB** provides fault tolerance by distributing traffic across multiple instances.
