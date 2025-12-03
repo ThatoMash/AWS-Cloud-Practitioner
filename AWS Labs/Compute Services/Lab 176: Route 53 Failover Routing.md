@@ -1,7 +1,8 @@
 # Amazon Route 53 Failover Routing Lab
 
 ## Lab Overview
-In this lab, you configure **failover routing** for a simple web application using Amazon Route 53. The lab environment has two **EC2 instances** running the café website in different Availability Zones. The goal is to ensure high availability by automatically failing over traffic to a secondary instance if the primary instance becomes unavailable.
+
+In this lab, I configured failover routing for a simple web application using Amazon Route 53. The lab environment provided me with two EC2 instances running the café website, each located in a different Availability Zone. My goal was to make the application highly available by ensuring that if the primary instance ever became unreachable, Route 53 would automatically fail over the traffic to the secondary instance, keeping the website online without any manual intervention.
 
 ### Architecture
 The final setup includes:
