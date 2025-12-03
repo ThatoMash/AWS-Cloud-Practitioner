@@ -1,22 +1,14 @@
 # Challenge Lab – Build Your DB Server and Interact With Your DB
 
-This lab demonstrates how to **launch**, **configure**, and **interact** with an AWS-managed relational database using Amazon RDS.  
-Amazon RDS simplifies the setup, operation, and scaling of relational databases while handling administrative tasks, allowing you to focus on your applications.
-
----
+This lab showed me how to launch, configure, and interact with an AWS-managed relational database using Amazon RDS. I learned that Amazon RDS makes it easier to set up, operate, and scale relational databases by handling administrative tasks like backups, patching, and monitoring, which allowed me to focus more on building and managing my applications.
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
-
-- Create an Amazon RDS instance  
-- Use the Amazon RDS Query Editor to query data  
-- Create tables and insert sample data  
-- Perform SQL queries including joins
-
-**Duration:** ~45 minutes
-
----
+After completing this lab, I was able to:
+Create an Amazon RDS instance.
+Use the Amazon RDS Query Editor to run queries on the database.
+Create tables and insert sample data.
+Perform SQL queries, including joins, to retrieve and analyze data.
 
 ## 1. Launch an Amazon RDS DB Instance
 
@@ -38,11 +30,6 @@ Steps completed:
 <img width="1348" height="559" alt="image" src="https://github.com/user-attachments/assets/69d6ccd6-7c54-472d-a0e0-03076050df91" />
 
 
-
- 
-*TODO: Add screenshot of RDS instance creation*
-
----
 
 ## 2. Connect to the LinuxServer
 
