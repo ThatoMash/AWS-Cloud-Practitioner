@@ -1,4 +1,6 @@
 # Lab: Automation with CloudFormation
+
+
 In this lab, I learned how to deploy and manage AWS infrastructure using CloudFormation templates. I practiced creating resources like a VPC, Security Group, S3 bucket, and EC2 instance through a template, and then I learned how to update and delete the stack, giving me hands-on experience with infrastructure as code.
 ---
 
