@@ -8,15 +8,15 @@ This lab demonstrates the creation of a **custom AWS VPC** with public and priva
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+After completing this lab, I was able to:
 
-- Create a Virtual Private Cloud (VPC)  
-- Configure public and private subnets across multiple Availability Zones  
-- Set up Internet Gateway and NAT Gateway  
-- Configure route tables for network traffic management  
-- Create and configure security groups  
-- Launch and configure an EC2 instance as a web server  
-- Deploy a web application on the EC2 instance  
+Create a fully functional Virtual Private Cloud (VPC).
+Configure public and private subnets across multiple Availability Zones for high availability.
+Set up both an Internet Gateway and a NAT Gateway to manage external connectivity.
+Configure route tables to control how traffic flows inside and outside the VPC.
+Create and apply security groups to secure my resources.
+Launch and configure an EC2 instance to act as a web server.
+Deploy a web application on that EC2 instance and confirm it works as expected.
 
 <img width="872" height="470" alt="image" src="https://github.com/user-attachments/assets/950f2fa8-1e51-4870-984f-f1dafde20d66" />
 
