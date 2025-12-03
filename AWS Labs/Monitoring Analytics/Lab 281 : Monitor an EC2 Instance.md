@@ -1,7 +1,8 @@
 # EC2 Monitoring & CloudWatch Lab – README
 
 ## Lab Overview
-In this lab, you will monitor an EC2 instance using Amazon CloudWatch, SNS, dashboards, and CPU stress tools.
+
+In this lab, I monitored an EC2 instance using Amazon CloudWatch, SNS, dashboards, and CPU stress tools. This gave me hands-on experience in tracking instance performance, visualizing metrics, and testing alerts under load.
 
 ---
 
