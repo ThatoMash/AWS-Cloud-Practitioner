@@ -1,7 +1,7 @@
 # AWS CloudTrail Lab – Café Website Investigation (Simplified)
 
 ## Overview
-This lab teaches you how to use AWS CloudTrail to track account activity and identify who hacked the Café website.
+In this lab, I learned how to use AWS CloudTrail to monitor account activity and track changes. Using the service, I investigated and identified who had compromised the Café website, gaining hands-on experience in auditing and security monitoring within AWS.
 
 ---
 
