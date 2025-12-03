@@ -1,33 +1,24 @@
 # AWS EBS: Working with Amazon Elastic Block Store
 
-![AWS](https://img.shields.io/badge/AWS-EBS-orange?style=for-the-badge&logo=amazon-aws)
-![EC2](https://img.shields.io/badge/EC2-Instance-green?style=for-the-badge&logo=amazon-aws)
-![Storage](https://img.shields.io/badge/Storage-Block_Storage-blue?style=for-the-badge&logo=databricks)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-## 📋 Project Overview
+##  Project Overview
 
-This hands-on lab demonstrates comprehensive Amazon Elastic Block Store (EBS) operations, including volume creation, attachment to EC2 instances, file system configuration, snapshot management, and disaster recovery procedures. The project showcases enterprise-grade block storage management practices for cloud infrastructure.
+In this hands-on lab, I worked with Amazon Elastic Block Store (EBS) to perform a range of operations, including creating volumes, attaching them to EC2 instances, configuring file systems, managing snapshots, and practicing disaster recovery procedures. This project gave me practical experience with enterprise-grade block storage management in a cloud environment.
 
-## 🎯 Objectives
+##  Objectives
+By completing this lab, I was able to:
 
-By completing this lab, the following capabilities were demonstrated:
+ Create EBS volumes with specific configurations.
+ Attach EBS volumes to running EC2 instances.
+ Mount and configure file systems on EBS volumes.
+ Set up persistent mount configurations to ensure volumes remain accessible after reboots.
+ Create EBS snapshots for backup and disaster recovery purposes.
+ Restore data from EBS snapshots when needed.
+ Manage multiple volumes on a single instance efficiently.
+ Understand the states and lifecycle of EBS volumes.
+ Implement storage redundancy and recovery strategies to protect data.
 
-- ✅ Create EBS volumes with specific configurations
-- ✅ Attach EBS volumes to running EC2 instances
-- ✅ Mount and configure file systems on EBS volumes
-- ✅ Create persistent mount configurations
-- ✅ Create EBS snapshots for backup and disaster recovery
-- ✅ Restore data from EBS snapshots
-- ✅ Manage multiple volumes on a single instance
-- ✅ Understand EBS volume states and lifecycle
-- ✅ Implement storage redundancy and recovery strategies
-
-## ⏱️ Duration
-
-**Approximately 45 minutes**
-
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ### EBS Volume Lifecycle and Management
 
