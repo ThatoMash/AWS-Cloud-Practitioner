@@ -1,20 +1,19 @@
 # Configuring a VPC Lab
 
 ## Introduction
-This lab demonstrates how to **create a Virtual Private Cloud (VPC) in AWS** and configure its networking components for secure and efficient communication.  
-You will learn how to:  
-- Create a **VPC** with public and private subnets.  
-- Configure **Internet Gateway (IGW)** and **NAT Gateway** for connectivity.  
-- Launch a **bastion server** in a public subnet.  
-- Connect to resources in a private subnet via the bastion server.  
+This lab demonstrates how I created a Virtual Private Cloud (VPC) in AWS and configured its networking components to support secure and efficient communication.
 
-This lab is designed to provide practical experience in building **isolated, secure, and internet-connected networks** on AWS.
-
----
+During the lab, I learned how to:
+Create a VPC with both public and private subnets.
+Configure an Internet Gateway (IGW) and a NAT Gateway to enable the right level of connectivity for each subnet.
+Launch a bastion server in the public subnet.
+Connect to resources in the private subnet using that bastion server as a secure access point.
+Overall, this lab gave me hands-on experience in building an isolated, secure, and internet-connected network architecture on AWS.
 
 ## Overview
-Amazon VPC allows you to provision a logically isolated section of the AWS Cloud. You control your **IP ranges, subnets, route tables, and gateways**.  
-In this lab, you will build a VPC, subnets, route tables, and gateways, and then deploy EC2 instances to test connectivity.
+Amazon VPC lets me provision a logically isolated section of the AWS Cloud where I control my own IP ranges, subnets, route tables, and gateways.
+
+In this lab, I built a complete VPC from scratch—including subnets, route tables, and gateways—and then launched EC2 instances to test and verify network connectivity. This helped me understand how traffic flows inside a VPC and how each component works together to create a secure and structured network environment.
 
 ---
 
@@ -25,17 +24,14 @@ In this lab, you will build a VPC, subnets, route tables, and gateways, and then
 
 *VPC with public and private subnets, EC2 instances in each subnet, NAT gateway in the public subnet, and associated route tables.*
 
----
+
 
 ## Lab Objectives
-After completing this lab, you will be able to:
-1. Create a VPC with public and private subnets, an Internet Gateway, and a NAT Gateway.  
-2. Configure route tables for internet-bound and local traffic.  
-3. Launch a bastion server in the public subnet.  
-4. Connect to instances in the private subnet using the bastion server.  
-5. (Optional) Test NAT Gateway connectivity from a private instance.
-
----
+After completing this lab, I was able to:
+Create a VPC with public and private subnets, along with an Internet Gateway and a NAT Gateway.
+Configure route tables to handle both internet-bound and internal traffic correctly.
+Launch a bastion server in the public subnet to provide secure access.
+Connect to instances in the private subnet through the bastion server.
 
 ## Lab Steps
 
