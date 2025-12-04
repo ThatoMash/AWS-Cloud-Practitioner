@@ -1,10 +1,13 @@
 # Nastro Bliss  AWS Transformation Presentation
 
+<img width="372" height="376" alt="image" src="https://github.com/user-attachments/assets/0471fa08-e766-4366-b43f-cc9f4f7ac642" />
+
+
 This repository contains the presentation for the Nastro Bliss Digital Transformation Project, showcasing how AWS can help streamline restaurant operations, reduce errors, and improve customer experience.
 
 ## About Nastro Bliss
 
-Nastro Bliss is a contemporary African restaurant located in Johannesburg, known for its modern take on African cuisine with a speciality in grill and fire dishes. The restaurant serves local residents, corporate clients, and tourists—and is now ready to scale its digital presence and customer experience.
+Nastro Bliss is a contemporary African restaurant located in Johannesburg, known for its modern take on African cuisine with a speciality in grill and fire dishes. The restaurant serves local residents, corporate clients, and tourists and is now ready to scale its digital presence and customer experience.
 
 ## Current Business Challenges
 
