@@ -92,6 +92,8 @@ I tested termination protection by attempting to terminate the instance, which w
 <img width="1365" height="453" alt="image" src="https://github.com/user-attachments/assets/ba68c6ef-1d21-402b-b54b-cc48a0903154" />
 <img width="1365" height="235" alt="image" src="https://github.com/user-attachments/assets/18f3c8cd-d81a-4b46-a883-bc0b2e1b3bd1" />
 <img width="1365" height="477" alt="image" src="https://github.com/user-attachments/assets/be2a42a8-de38-473b-894c-511af79f2a20" />
+<img width="1364" height="233" alt="image" src="https://github.com/user-attachments/assets/0a13ed0a-38fc-41c6-9928-fe9b32fb3590" />
+
 
 
 ---
