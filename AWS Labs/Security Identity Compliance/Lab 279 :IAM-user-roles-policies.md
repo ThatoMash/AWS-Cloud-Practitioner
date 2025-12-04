@@ -1,12 +1,9 @@
 # AWS Identity and Access Management (IAM): Users, Groups, and Policies
 
-![AWS](https://img.shields.io/badge/AWS-IAM-orange?style=for-the-badge&logo=amazon-aws)
-![Security](https://img.shields.io/badge/Security-Access_Control-red?style=for-the-badge&logo=security)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 This lab demonstrates AWS IAM concepts including users, groups, policies, and secure access controls. Each screenshot below highlights a key step of the lab, along with a brief explanation.
 
 ---
@@ -113,10 +110,6 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 
  
 
----
 
-## 👨‍💻 Author
-**[Your Name]**  
-GitHub: [@yourusername](https://github.com/yourusername)  
-LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+
 
