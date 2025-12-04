@@ -70,10 +70,12 @@ As part of understanding scalability, I stopped the instance and resized it from
 <img width="1360" height="570" alt="image" src="https://github.com/user-attachments/assets/2de50c67-1b2c-4c9e-aadb-c60e88700d9f" />
 <img width="1010" height="575" alt="image" src="https://github.com/user-attachments/assets/f30a840f-534e-4ae4-bed1-cf83fe02ed53" />
 <img width="1164" height="172" alt="image" src="https://github.com/user-attachments/assets/65d9e7ea-e277-41a5-9d9b-1016e18ffc1a" />
-
-
-
-
+<img width="1361" height="408" alt="image" src="https://github.com/user-attachments/assets/11c9991c-d9c7-483b-b8a2-65dfb6a092f2" />
+<img width="1365" height="358" alt="image" src="https://github.com/user-attachments/assets/af203708-7918-42c9-ae9b-b47be08f2f94" />
+<img width="1361" height="486" alt="image" src="https://github.com/user-attachments/assets/4de2c2b3-b0e3-4c67-8b8a-e4968efaadbf" />
+<img width="1170" height="177" alt="image" src="https://github.com/user-attachments/assets/417943a9-c3d5-4c8a-9449-b001dabe42b5" />
+<img width="1362" height="214" alt="image" src="https://github.com/user-attachments/assets/e7442244-2356-459d-8007-543c3df90339" />
+<img width="1359" height="215" alt="image" src="https://github.com/user-attachments/assets/3217e77e-c41e-4772-8ddc-7faab22958e0" />
 
 
 ---
@@ -82,7 +84,15 @@ As part of understanding scalability, I stopped the instance and resized it from
 I tested termination protection by attempting to terminate the instance, which was initially blocked. After disabling the protection, I successfully terminated the instance. This task highlighted the importance of **safeguards in managing production environments**.
 
 **Screenshot Placeholder**  
-![EC2 Termination Placeholder](./images/termination.png)
+
+<img width="1357" height="211" alt="image" src="https://github.com/user-attachments/assets/7605f820-c25a-437c-b843-10ba95dc8eb5" />
+<img width="1364" height="468" alt="image" src="https://github.com/user-attachments/assets/7dcf9f9c-c28e-432f-8917-efb6665cdfc3" />
+<img width="1365" height="223" alt="image" src="https://github.com/user-attachments/assets/3127c36c-0bd8-46ab-958b-d45749688918" />
+<img width="1365" height="507" alt="image" src="https://github.com/user-attachments/assets/2d6fa8f3-bafa-4f13-bbb3-d1da08a3c96b" />
+<img width="1365" height="453" alt="image" src="https://github.com/user-attachments/assets/ba68c6ef-1d21-402b-b54b-cc48a0903154" />
+<img width="1365" height="235" alt="image" src="https://github.com/user-attachments/assets/18f3c8cd-d81a-4b46-a883-bc0b2e1b3bd1" />
+<img width="1365" height="477" alt="image" src="https://github.com/user-attachments/assets/be2a42a8-de38-473b-894c-511af79f2a20" />
+
 
 ---
 
@@ -109,9 +119,7 @@ Overall, this experience deepened my understanding of **cloud infrastructure man
 
 ---
 
-### Notes
-- Replace picture placeholders in `/images` with actual screenshots.  
-- This project demonstrates **real-world AWS EC2 proficiency**, making it ideal for cloud, DevOps, and backend-focused roles.
+
 
 
 
