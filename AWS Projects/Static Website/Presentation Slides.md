@@ -1,3 +1,78 @@
+# Nastro Bliss  AWS Transformation Presentation
+
+This repository contains the presentation for the Nastro Bliss Digital Transformation Project, showcasing how AWS can help streamline restaurant operations, reduce errors, and improve customer experience.
+
+## About Nastro Bliss
+
+Nastro Bliss is a contemporary African restaurant located in Johannesburg, known for its modern take on African cuisine with a speciality in grill and fire dishes. The restaurant serves local residents, corporate clients, and tourists—and is now ready to scale its digital presence and customer experience.
+
+## Current Business Challenges
+
+Booking Confusion
+Reservations come through multiple channels (phone, walk-ins, social media), leading to lost information and double bookings.
+
+Order Mix-Ups
+Manual or verbal orders cause incorrect meals, delays, and unhappy customers.
+
+No Digital Presence
+Customers cannot easily check menus, hours, or make bookings online.
+
+## Business Impact
+
+30% lost revenue
+
+40% staff time wasted
+
+25% drop in customer satisfaction
+
+## Proposed Solution: A Static Website on AWS
+
+A modern AWS-powered web presence that provides:
+
+Centralized booking system
+
+Digital menu & online ordering
+
+Real-time updates (hours, specials, availability)
+
+## Why AWS?
+
+99.99% uptime reliability
+
+Lower operational costs
+
+Automatic backups
+
+Strong security & compliance
+
+Scalable as the business grows
+
+ ## Key Benefits
+
+Eliminates booking mistakes
+
+Reduces staff workload
+
+Increases customer reach
+
+Improves satisfaction & repeat visits
+
+Supports future digital growth
+
+## Rollout Plan
+
+Design & Planning
+
+Build & Deploy
+
+Train & Optimize
+
+Grow & Evolve (add payments, loyalty programs, mobile apps)
+
+
+### Here is the Presentation Slides
+
+
 <img width="709" height="396" alt="image" src="https://github.com/user-attachments/assets/88311ec2-d753-43e6-a152-dbe9543af0c6" />
 
 
