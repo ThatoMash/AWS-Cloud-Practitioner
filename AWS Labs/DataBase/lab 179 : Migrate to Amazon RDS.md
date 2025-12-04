@@ -29,8 +29,17 @@ Before migrating the database, I generated sample order data on the café websit
 
 **Screenshot Placeholder**  
 <img width="1081" height="55" alt="image" src="https://github.com/user-attachments/assets/699207d7-fd4a-4ffe-89a1-745ca1724d43" />
+
+
 <img width="1353" height="675" alt="image" src="https://github.com/user-attachments/assets/d4d726d1-7dde-4917-906c-509e027b7132" />
+
+On the cafe website,I choose Menu, and chose  one  each item to order, and then chose Submit Order.
 <img width="868" height="596" alt="image" src="https://github.com/user-attachments/assets/2e564037-5136-4650-9255-87480f7da84c" />
+
+I went to the Order History page, and recorde the number of orders that i placed for Later in this lab, I will compare this number with the number of orders in the migrated database.
+
+ 
+
 <img width="863" height="384" alt="image" src="https://github.com/user-attachments/assets/47c27d31-7c55-4dc3-9f7b-0eec3e44d329" />
 
 
@@ -54,10 +63,20 @@ Using **EC2 Instance Connect**, I accessed the CLI Host to run AWS CLI commands 
 
 **Screenshot Placeholder**  
 
+ I Went to EC2 Management Console
 <img width="1356" height="274" alt="image" src="https://github.com/user-attachments/assets/57e4855a-1b4d-4877-81e2-9d58c0ab54fd" />
+
 <img width="1360" height="580" alt="image" src="https://github.com/user-attachments/assets/5bac13b5-f94f-4c65-be6b-95de81a3bacc" />
+
+I connect to the EC2 Instance Connect
+
 <img width="1364" height="518" alt="image" src="https://github.com/user-attachments/assets/a6f1ba3a-841c-4d85-a7e0-14406aac3d3e" />
+
+
+I have to run the AWS configure commands 
+
 <img width="1365" height="226" alt="image" src="https://github.com/user-attachments/assets/3fd3421e-f633-46c3-9361-db3ce7477f1f" />
+
 <img width="471" height="87" alt="image" src="https://github.com/user-attachments/assets/869c987c-e65e-4ece-bdbd-74b423e310c5" />
 
  CafeDB Private Subnet 1 in the same AZ as your Cafe EC2 instance (us-west-2a
@@ -75,11 +94,15 @@ DB Subnet Group for your RDS instance
 creation of a MariaDB database
 
 <img width="447" height="339" alt="image" src="https://github.com/user-attachments/assets/223412d8-823f-4cb6-aad7-62ad668a9786" />
+
+
+
 <img width="556" height="430" alt="image" src="https://github.com/user-attachments/assets/f99d9547-5d9d-443b-aca2-f529310f79a5" />
 
 Status of the database
 
 BACKING UP STATUS
+
 <img width="852" height="129" alt="image" src="https://github.com/user-attachments/assets/b9c4dc6f-a620-45c0-8840-02169b46c96d" />
 
 
