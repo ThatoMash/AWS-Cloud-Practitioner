@@ -1,6 +1,8 @@
-<div style="background-color:#1e90ff; padding:20px; display:inline-block; border-radius:10px;">
-  <a href="https://www.linkedin.com/profile/in/thato-p-mashimbi/" target="_blank">
-    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHV0YK27HBDCA/profile-displayphoto-scale_200_200/B4DZjCQxpHH0Ac-/0/1755605836880?e=1764806400&v=beta&t=KU4P40S_vxpWi5ao326nEczQ93iFV7qkPy9gi8AAA9w" width="250">
+
+</div>
+<div style="background-color:#1e90ff; padding:20px; display:flex; justify-content:center; align-items:center; border-radius:10px; width:max-content;">
+  <a href="https://www.linkedin.com/in/thatomash/" target="_blank" style="display:block;">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHV0YK27HBDCA/profile-displayphoto-crop_800_800/B4DZjCQxpHH0AM-/0/1755605836772?e=1766620800&v=beta&t=l1aOLgvdV5cYbmrRkZDBDKXHIVOo6TEjeAao6bX51oE" style="width:200px; height:auto; border-radius:50%;">
   </a>
 </div>
 
@@ -122,7 +124,7 @@ I completed a minimum of two labs per section (Compute, Storage, Networking, Dat
 
 * **Email:** [Thatomashimbi@gmail.com](mailto:Thatomashimbi@gmail.com)
 * **Phone:** 079 797 3774
-* **LinkedIn:** [https://www.linkedin.com/in/thato-p-mashimbi/](https://www.linkedin.com/in/thato-p-mashimbi/)
+* **LinkedIn:** [https://www.linkedin.com/in/thato-p-mashimbi/](https://www.linkedin.com/in/thatomash/)
 * **GitHub:** I'm here!
 
 ---
