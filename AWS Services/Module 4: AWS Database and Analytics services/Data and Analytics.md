@@ -1,4 +1,4 @@
-# AWS Cloud Practitioner (CLF-C01): Database Services Study Notes
+# AWS Cloud Practitioner  Database Services Study Notes
 
 This repository contains study notes and visual aids regarding Amazon Web Services (AWS) Database offerings, covering Relational, NoSQL, and specialized database services.
 
