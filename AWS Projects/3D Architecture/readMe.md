@@ -1,61 +1,44 @@
 # Praesignis 3D E-Commerce Cloud Architecture Project
 
-## Introduction
-Welcome to the **Praesignis 3D E-Commerce Cloud Architecture Project**. In this project, **we** set out to create a new way of shopping online where customers can view and interact with high quality 3D product models instead of just static images. Because 3D files are larger and more complex, **we** built a cloud based system that is fast, secure, and able to scale to handle many users at once.
+## Group 4
 
-Through this project, **we** applied AWS cloud services to deliver a solution that is **reliable, scalable, secure, and cost efficient**. It also allowed **us** to demonstrate real world cloud practices while focusing on key principles like **availability, performance, and security**.
+### Participants
+- Thato
+- Ndzalo
+- Aluwani
+- Xoliswa
 
 ## Project Overview
-**We** designed the platform so that users can explore products in 3D giving them a more immersive and interactive shopping experience. To make this possible, **we** deployed the system across multiple AWS Availability Zones ensuring that users worldwide experience fast load times and reliable performance.  
 
-The architecture reflects **our focus** on balancing **speed, reliability, security, and cost** following best practices taught in the Praesignis Cloud Practitioner Programme.
+The Praesignis 3D E Commerce Platform is designed to support a new style of online shopping where customers view and interact with high quality 3D product models. These files are much larger and more complex than traditional images, so the system needed to be built on a cloud architecture that provides global performance, low latency, strong security, and the ability to scale when user traffic increases. The architecture makes use of concepts taught in the Praesignis Cloud Practitioner Programme and reflects real industry practices. The design focuses on the main requirements of high availability, performance, scalability, security, and cost efficiency. To achieve this level of reliability, the platform is deployed across multiple AWS Availability Zones.
 
-## Our Team (Group 4)
-- **Thato**  
-- **Ndzalo**  
-- **Aluwani**  
-- **Xoliswa**  
 
-## Architecture Diagram
+<img width="600" height="498" alt="image" src="https://github.com/user-attachments/assets/2d27bf72-ec0a-4c10-9597-e9b34c99b155" />
 
-<img width="600" height="498" alt="image" src="https://github.com/user-attachments/assets/284a7d91-3577-4206-84a2-02a5dc149577" />
 
- 
-*This diagram shows how the AWS services work together to support the platform.*
+## Architecture 
 
-## How the Architecture Works
-Here is how **we** designed the system to work  
+User traffic begins at Amazon Route 53. This service handles DNS routing and performs health checks to ensure users are always directed to working endpoints. Traffic then moves through AWS WAF and AWS Shield, which protect the platform from common attacks and denial of service attempts. Static assets such as 3D models, product textures, and images are delivered through Amazon CloudFront.
 
-1. **Amazon Route 53**: Directs users to the right endpoints and performs health checks to make sure everything is working  
-2. **AWS WAF & AWS Shield**: Protect the platform from attacks and online threats  
-3. **Amazon CloudFront**: Delivers 3D models and images quickly to users around the world  
-4. **Amazon S3**: Stores the original 3D files and other media  
-5. **Application Load Balancer (ALB)**: Sends requests to backend servers for processing  
-6. **Amazon EC2 & Auto Scaling Group**: Handle heavy tasks like product data retrieval, user sessions, and order processing, scaling up when needed  
-7. **Amazon RDS (Multi AZ)**: Keeps relational data safe and ensures high availability with automatic failover  
-8. **Amazon CloudWatch**: Monitors system performance and health  
-9. **AWS Trusted Advisor**: Gives recommendations for saving costs and improving performance and security  
+CloudFront stores cached content at AWS edge locations across the world, allowing users to experience faster loading times. The original files are stored in Amazon S3. When a request requires backend processing, the Application Load Balancer forwards the request to EC2 instances distributed across two Availability Zones. These instances handle activities such as retrieving product data, managing customer sessions, and processing orders. 
 
-## Meeting the Project Goals
-- **High Availability**: **We** ensured this with Multi AZ deployment, EC2 Auto Scaling, and Route 53 health checks  
-- **Scalability**: The system can handle increasing traffic thanks to CloudFront, S3, and Auto Scaling  
-- **Performance**: CloudFront caching and balanced backend traffic keep everything running smoothly  
-- **Security**: **We** implemented WAF, Shield, IAM policies, private subnets, and security groups  
-- **Cost Efficiency**: **We** optimized costs using Auto Scaling, S3 storage, and Trusted Advisor insights  
+The compute layer is managed through an Auto Scaling Group. Relational data is stored in Amazon RDS configured in Multi AZ mode, allowing immediate failover if the primary instance becomes unavailable. System performance and activity are monitored through Amazon CloudWatch, while AWS Trusted Advisor provides recommendations on cost, security, and performance.
 
-## Design Decisions and Challenges
-- **Why EC2 over Serverless?** EC2 provides consistent computing power for heavy 3D processing  
-- **Why RDS over DynamoDB?** RDS is better for structured data and strong transactional consistency  
-- **Multi AZ Deployment**: While more expensive, **we** chose it to guarantee reliability  
-- **Optimizing 3D Assets**: **We** focused on this to maintain fast loading times and smooth user experiences  
+## Meeting the Project Requirements
+
+The platform achieves high availability through Multi AZ RDS deployment, Auto Scaling for EC2 instances, and Route 53 health checks. Scalability is supported through S3 storage, CloudFront global delivery, and EC2 Auto Scaling. Performance is improved through CloudFront caching and balanced backend traffic. Security is maintained through layered protection involving WAF, Shield, IAM, private subnets, and security groups. Cost optimization is supported through Auto Scaling, S3 storage, and Trusted Advisor insights.
+
+## Design Trade Offs and Challenges
+
+EC2 instances were selected instead of serverless computing because the application performs heavy 3D processing tasks that require consistent compute power. Amazon RDS was chosen over DynamoDB due to the need for structured relational data and strong transactional consistency. Multi AZ deployment increases cost but ensures reliability. The architecture also depends on optimized 3D assets to maintain fast user experiences.
 
 ## Team Contributions
-- **Xoliswa**: Led the architectural layout and service distribution across Availability Zones  
-- **Thato**: Documented the purpose and reasoning behind each AWS service  
-- **Aluwani**: Contributed to the architecture structure and security design  
-- **Ndzalo**: Analyzed alternative designs, trade offs, and challenges  
+
+- **Xoliswa**: Led the architectural layout and distribution of services across Availability Zones.
+- **Thato**: Documented the purpose and reasoning behind each AWS service.
+- **Aluwani**: Contributed to the architecture structure and security design.
+- **Ndzalo**: Analyzed alternative designs, trade offs, and challenges.
 
 ## Conclusion
-Through this project, **we** built a cloud based system capable of delivering interactive 3D content to users worldwide. The platform is **resilient, secure, scalable**, and follows modern industry practices. Most importantly, it provides a **high quality, immersive shopping experience**, showing what a well designed cloud architecture can achieve  
 
-**We hope this project inspires others to explore cloud solutions for complex, high performance applications**
+The Praesignis 3D E Commerce Architecture Project demonstrates a complete cloud based solution capable of delivering interactive 3D content to users around the world. The architecture is resilient, secure, scalable, and aligned with modern industry practices.
