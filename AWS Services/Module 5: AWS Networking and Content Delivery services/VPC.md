@@ -25,7 +25,7 @@ This guide covers the core concepts of Amazon Virtual Private Cloud (VPC), secur
 
 ---
 
-## 🛡️ 2. Security Layers
+##  2. Security Layers
 
 
 
@@ -40,7 +40,7 @@ AWS provides two layers of firewalls to control traffic:
 | **Rules** | [cite_start]Supports both **ALLOW** and **DENY** rules[cite: 552]. | [cite_start]Supports **ALLOW** rules only[cite: 572]. |
 | **State** | [cite_start]**Stateless:** You must explicitly allow return traffic[cite: 709]. | [cite_start]**Stateful:** Return traffic is automatically allowed[cite: 710]. |
 
-### 📊 VPC Flow Logs
+###  VPC Flow Logs
 
 
 <img width="967" height="500" alt="image" src="https://github.com/user-attachments/assets/e6f48a70-c203-41ef-9dc0-3e12f096293e" />
@@ -53,7 +53,7 @@ AWS provides two layers of firewalls to control traffic:
 
 ---
 
-## 🔗 3. Connectivity Options
+##  3. Connectivity Options
 
 ### VPC Peering
 
@@ -75,14 +75,14 @@ AWS provides two layers of firewalls to control traffic:
 
 ---
 
-## 🏢 4. Hybrid Networking (On-Premises to AWS)
+##  4. Hybrid Networking (On-Premises to AWS)
 
 ![Hybrid Networking Diagram](placeholder_for_hybrid_networking_image.jpg
 
 <img width="955" height="510" alt="image" src="https://github.com/user-attachments/assets/45357b16-29ba-4a21-9701-5312907b20ec" />
 
 
-### 🔐 AWS Site-to-Site VPN
+###  AWS Site-to-Site VPN
 * [cite_start]Establishes a secure connection between your on-premises network and your VPC[cite: 631].
 * [cite_start]**Encryption:** The connection is encrypted and goes over the **public internet**[cite: 632].
 * **Components Required:**
@@ -93,6 +93,6 @@ AWS provides two layers of firewalls to control traffic:
 * [cite_start]A dedicated **physical** network connection from your on-premises data center to AWS[cite: 647].
 * **Benefits:** Private, secure, and consistent network performance. [cite_start]It does **not** use the public internet [cite: 657-668].
 
-### 🔀 AWS Transit Gateway
+###  AWS Transit Gateway
 * [cite_start]A central hub ("Cloud Router") that connects **thousands** of VPCs and on-premises networks to a single gateway[cite: 689].
 * [cite_start]It simplifies network topology by acting as a central point for VPCs, Direct Connect, and VPN connections [cite: 700-722].
