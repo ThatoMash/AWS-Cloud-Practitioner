@@ -66,16 +66,6 @@ This space documents my progress, notes, and hands-on labs as I build my foundat
 * 3D Architecture (Deadline: 5 December)
 * AWS Lex Bot (TBD)
 
-### Labs Completed
-
-I completed labs in Compute, Storage, Networking, and Databases. Each lab included:
-
-* Step-by-step explanation in my own words
-* Screenshots of the process
-* Reasoning behind each step 
-
-
-
 ##  Skills and Technologies
 
 ### AWS Services
