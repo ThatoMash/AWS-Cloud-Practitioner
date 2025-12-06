@@ -2,9 +2,8 @@
 
 Welcome to my AWS Cloud Practitioner certification study repository! This repo contains comprehensive notes, examples, and resources as I prepare for the AWS Cloud Practitioner exam.
 
-![AWS Compute Services](./images/aws-compute-services.png)
 
-## 📚 Course Modules
+##  Course Modules
 
 ### Module 1: Introduction to AWS
 - Cloud computing fundamentals
@@ -72,7 +71,7 @@ Welcome to my AWS Cloud Practitioner certification study repository! This repo c
 - AWS AI/ML services
 
 
-## 🔗 Useful Resources
+##  Useful Resources
 
 - [AWS Cloud Practitioner Exam Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 - [AWS Documentation](https://docs.aws.amazon.com/)
@@ -82,7 +81,7 @@ Welcome to my AWS Cloud Practitioner certification study repository! This repo c
 
 
 
-## 📊 Key Concepts to Master
+##  Key Concepts to Master
 
 - **Cloud Concepts**: Benefits, economics, design principles
 - **Security & Compliance**: Shared Responsibility Model, IAM, compliance programs
