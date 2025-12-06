@@ -18,7 +18,7 @@ This space documents my progress, notes, and hands-on labs as I build my foundat
 
 ##  What You’ll Find Here
 
--  **[Organized Notes by Module](#📘-modules-covered)**  
+-  **[Organized Notes by Module](AWS%20Services/)**  
 -  **[Hands-on Lab Documentation](./My-learning-journey.md)**  
 -  **[Helpful Learning Resources](./Resources.md)**  
 
