@@ -60,7 +60,7 @@ This space documents my progress, notes, and hands-on labs as I build my foundat
 
 ---
 
-### Projects Completed
+### [Projects Completed](AWS%20Projects/)
 
 * Static Website (Deadline: 28 November)
 * 3D Architecture (Deadline: 5 December)
