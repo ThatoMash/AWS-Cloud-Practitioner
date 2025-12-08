@@ -13,7 +13,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-##  Week  – Compute Services
+##  [Week  – Compute Services](AWS%20Services/Module%202:%20AWS%20Compute%20Services)
 - Learned about **EC2 instances**, **pricing models**, and **instance types**
 - Explored **Elastic Load Balancing** and **Auto Scaling**
 - Introduction to **AWS Lambda** and the concept of **serverless computing**
@@ -21,7 +21,7 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-##  Week  – Storage Services
+##  [Week  – Storage Services](AWS%20Services/Module%203:%20AWS%20Storage%20Services)
 - Understood differences between **S3**, **EBS**, and **EFS**
 - Practiced creating and managing **S3 buckets**
 - Learned about **S3 storage classes** and **lifecycle policies**
@@ -29,21 +29,21 @@ This document tracks my progress as I learn about AWS Cloud and prepare for the 
 
 ---
 
-##  Week  – Database & Analytics
+##  [Week  – Database & Analytics](AWS%20Services/Module%204:%20AWS%20Database%20and%20Analytics%20services)
 - Introduction to **RDS**, **DynamoDB**, and **Redshift**
 - Understood managed databases and their advantages
 - Completed a lab: *Creating an RDS instance*
 
 ---
 
-##  Week  – Networking & Content Delivery
+##  [Week  – Networking & Content Delivery](AWS%20Services/Module%203:%20AWS%20Storage%20Services)
 - Explored **VPC**, **subnets**, and **security groups**
 - Learned about **Route 53** and **CloudFront**
 - Completed a lab: *Configuring a custom VPC*
 
 ---
 
-##  Week  – Security Services
+##  [Week  – Security Services](AWS%20Services/Module%206:%20AWS%20Security%20services)
 - Learned about **IAM users, roles, and policies**
 - Studied **AWS Shield** and **GuardDuty**
 - Understood the **Principle of Least Privilege**
