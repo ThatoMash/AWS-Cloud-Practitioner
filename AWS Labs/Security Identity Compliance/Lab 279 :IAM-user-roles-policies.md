@@ -8,7 +8,7 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 
 ---
 
-## 🔹 Task 1: Password Policy Configuration
+##  Task 1: Password Policy Configuration
 
 ### IAM Dashboard
 <img width="1347" height="564" alt="image" src="https://github.com/user-attachments/assets/eeb19d6f-eab2-4052-a062-ab3633b5326b" />
@@ -32,7 +32,7 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 
 ---
 
-## 🔹 Task 2: Users and Groups
+##  Task 2: Users and Groups
 
 ### IAM Users List
 <img width="1346" height="566" alt="image" src="https://github.com/user-attachments/assets/20349328-bf30-4dae-8205-957f92ea2f4d" />
@@ -51,7 +51,7 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 
 ---
 
-## 🔹 Task 3: Adding Users to Groups
+##  Task 3: Adding Users to Groups
 
 ### Add User-1 to S3-Support
 <img width="1088" height="556" alt="image" src="https://github.com/user-attachments/assets/b7660645-8e59-4025-a180-d2831a722a8d" />
@@ -70,7 +70,7 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 
 ---
 
-## 🔹 Task 4: Testing Permissions
+##  Task 4: Testing Permissions
 
 ### User-1 S3 Access
 <img width="1340" height="560" alt="image" src="https://github.com/user-attachments/assets/190339a5-c9e0-4063-85d0-c1c3162c67a8" />
@@ -99,7 +99,7 @@ This lab demonstrates AWS IAM concepts including users, groups, policies, and se
 
 ---
 
-## 📝 Notes / Key Learnings
+##  Notes / Key Learnings
 
 - IAM **groups** simplify permission management.  
 - **Managed policies** provide reusable permission sets; **inline policies** are custom per group.  
