@@ -74,10 +74,6 @@ aws cloudtrail lookup-events \
 --lookup-attributes AttributeKey=ResourceType,AttributeValue=AWS::EC2::SecurityGroup
 ```
 
-📷 **Placeholder:** `./images/task3.png`
-
----
-
 ## Task 4 – Analyze Logs in Athena
 ### Example SQL Queries
 ```sql
@@ -91,10 +87,6 @@ SELECT useridentity.userName, eventtime, eventsource, eventname
 FROM cloudtrail_logs_monitoring####
 LIMIT 30;
 ```
-
-📷 **Placeholder:** `./images/athena.png`
-
----
 
 ## Task 5 – Remove Hacker & Secure System
 ### Check Logged-In Users
@@ -121,10 +113,6 @@ cd /var/www/html/cafe/images/
 sudo mv Coffee-and-Pastries.backup Coffee-and-Pastries.jpg
 ```
 
-📷 **Placeholder:** `./images/task5.png`
-
----
-
 ## Summary
 - CloudTrail created  
 - Logs analyzed with grep, AWS CLI, and Athena  
@@ -133,14 +121,3 @@ sudo mv Coffee-and-Pastries.backup Coffee-and-Pastries.jpg
 
 ---
 
-## Placeholder Image List
-Place these in `./images/`:
-
-```
-architecture.png
-task1.png
-task2.png
-task3.png
-athena.png
-task5.png
-```
