@@ -5,15 +5,14 @@
 This lab demonstrates how to implement data encryption and decryption using **AWS Key Management Service (KMS)** and the **AWS Encryption CLI**. You'll learn how to protect sensitive data by transforming plaintext into ciphertext using symmetric encryption keys.
 
 
-
 ##  Objectives
 
 After completing this lab, you will be able to:
 
-- ✅ Create an AWS KMS encryption key
-- ✅ Install and configure the AWS Encryption CLI
-- ✅ Encrypt plaintext files into ciphertext
-- ✅ Decrypt ciphertext back to plaintext
+Create an AWS KMS encryption key
+ Install and configure the AWS Encryption CLI
+ Encrypt plaintext files into ciphertext
+  Decrypt ciphertext back to plaintext
 
 
 The lab environment includes:
@@ -22,7 +21,6 @@ The lab environment includes:
 - **AWS KMS**: Key management service for encryption keys
 - **Systems Manager**: Session Manager for secure instance access
 
-![Lab Environment](images/lab-environment.png)
 
 ##  Getting Started
 
@@ -162,7 +160,7 @@ cd output
 cat secret1.txt.encrypted
 ```
 
-![Encrypted Ciphertext](images/encrypted-file.png)
+
 
 #### Decrypt the File
 
@@ -196,18 +194,18 @@ cat secret1.txt.encrypted.decrypted
 ### Encryption Process
 Symmetric encryption uses the **same key** to both encrypt and decrypt data, making it fast and efficient.
 
-![Symmetric Encryption](images/symmetric-encryption.png)
+
 
 **Plaintext** → **[Symmetric Key + Algorithm]** → **Ciphertext**
 
 ### Decryption Process
 The same symmetric key reverses the encryption to restore the original plaintext.
 
-![Symmetric Decryption](images/symmetric-decryption.png)
+
 
 **Ciphertext** → **[Symmetric Key + Algorithm]** → **Plaintext**
 
-## 📊 Results
+##  Results
 
 Upon successful completion, you will have:
 - Created a secure AWS KMS encryption key
@@ -215,7 +213,7 @@ Upon successful completion, you will have:
 - Decrypted the ciphertext back to its original readable form
 - Gained hands-on experience with AWS encryption services
 
-## 🛡️ Security Best Practices
+##  Security Best Practices
 
 - Always use encryption contexts for additional security
 - Store KMS key ARNs securely
@@ -224,14 +222,8 @@ Upon successful completion, you will have:
 - Monitor key usage with AWS CloudTrail
 
 
-
-
-
-
-
 - AWS for providing the KMS service and encryption tools
 - The AWS Encryption SDK team for the CLI tool
 
 ---
 
-**⭐ If you found this lab helpful, please give it a star!**
