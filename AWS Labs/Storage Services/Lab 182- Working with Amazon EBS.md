@@ -22,7 +22,6 @@ By completing this lab, I was able to:
 * Restore a new volume from a snapshot
 * Verify data persistence and recovery
 
-![Objectives Placeholder](PUT-YOUR-IMAGE-LINK-HERE)
 
 ---
 
@@ -30,7 +29,6 @@ By completing this lab, I was able to:
 
 For this lab, I set up an **EC2 instance with an attached EBS volume**, and I created a snapshot to restore the data to a new volume.
 
-![Architecture Diagram Placeholder](PUT-YOUR-IMAGE-LINK-HERE)
 
 ---
 
@@ -48,7 +46,6 @@ I created a new EBS volume using the AWS Management Console:
    * **Tags:** Name = My Volume
 4. Created the volume and waited for it to show **Available**.
 
-![Task 1 Placeholder](PUT-YOUR-IMAGE-LINK-HERE)
 <img width="1358" height="558" alt="image" src="https://github.com/user-attachments/assets/8ee18008-9268-42be-b0ab-00c8863e6f48" />
 
 <img width="1362" height="566" alt="image" src="https://github.com/user-attachments/assets/ddbf7313-d40b-465c-94be-d1856d6d7d69" />
@@ -192,7 +189,7 @@ I restored my snapshot to a new EBS volume:
 
 I attached the restored volume to my EC2 instance using device **/dev/sdc**.
 
-![Task 6.2 Placeholder](PUT-YOUR-IMAGE-LINK-HERE)
+
 
 <img width="1361" height="323" alt="image" src="https://github.com/user-attachments/assets/f90cccd2-5ed2-451e-b29b-def4c355805f" />
 
@@ -231,7 +228,6 @@ Through this lab, I gained hands-on experience by personally:
 * Restoring data from snapshots to new volumes
 * Ensuring storage persistence in the cloud
 
-![What I Learned Placeholder](PUT-YOUR-IMAGE-LINK-HERE)
 
 This lab strengthened my understanding of **AWS storage management** and how to maintain **reliable, recoverable storage solutions**.
 
@@ -244,4 +240,4 @@ This lab strengthened my understanding of **AWS storage management** and how to 
 * [EBS Snapshots](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html)
 * [Mounting an EBS Volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
-![Additional Resources Placeholder](PUT-YOUR-IMAGE-LINK-HERE)
+![
