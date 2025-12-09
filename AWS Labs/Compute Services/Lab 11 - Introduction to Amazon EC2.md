@@ -21,7 +21,7 @@ The lab involved deploying a **web server** on EC2 with proper security and scal
 I began by launching an EC2 instance named `Web Server` using the **Amazon Linux 2023 AMI**. I selected a **t3.micro instance type** and configured **termination protection** to prevent accidental deletion. Using a **User Data script**, I automated the installation of an Apache web server and deployed a simple web page.
 
 **Screenshot Placeholder**  
-![EC2 Launch Instance Placeholder](./images/launch-instance.png)
+
 
 <img width="1363" height="471" alt="image" src="https://github.com/user-attachments/assets/62cee78a-bb84-40f8-8d69-37d7609d2e5f" />
 <img width="1348" height="513" alt="image" src="https://github.com/user-attachments/assets/b5d73f36-b553-4206-92df-9a476ec69dac" />
@@ -110,18 +110,6 @@ Through this lab, I gained **hands-on experience with EC2 from start to finish**
 Overall, this experience deepened my understanding of **cloud infrastructure management** and gave me practical insight into building **resilient and scalable applications on AWS**.
 
 ---
-
-## Additional Resources
-- [AWS EC2 Getting Started Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)  
-- [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)  
-- [Amazon Machine Images (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)  
-- [Security Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)  
-- [EC2 Resizing](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html)  
-- [Termination Protection](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-termination-protection.html)  
-
----
-
-
 
 
 
