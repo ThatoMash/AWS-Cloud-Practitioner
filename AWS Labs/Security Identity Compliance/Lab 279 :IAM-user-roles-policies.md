@@ -1,7 +1,6 @@
 # AWS Identity and Access Management (IAM): RBAC & Least Privilege
 
 
-##  Executive Summary
 In a secure cloud environment, the **Principle of Least Privilege** is paramount. Granting users access to "everything" creates significant security vulnerabilities. 
 
 This project demonstrates the implementation of a robust Identity and Access Management (IAM) strategy on AWS. I configured account-wide security settings, implemented **Role-Based Access Control (RBAC)** by assigning users to groups with specific permissions, and verified the isolation of duties. The goal was to simulate a real-world business scenario where staff members perform distinct roles (Support vs. Admin) without overlapping privileges.
