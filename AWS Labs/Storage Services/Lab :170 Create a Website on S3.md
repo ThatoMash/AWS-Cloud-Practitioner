@@ -1,10 +1,10 @@
 # AWS S3: Creating a Static Website with AWS CLI
 
-## 📋 Project Overview
+##  Project Overview
 
 In this lab, I deployed a static website to Amazon S3 using the AWS CLI. During the project, I created S3 buckets, managed IAM users, enabled static website hosting, uploaded files, and automated deployments using bash scripts, gaining practical experience with S3-based website hosting and automation.
 
-## 🎯 Objectives
+##  Objectives
 
  Configure AWS CLI and create S3 buckets
  Manage IAM users and permissions programmatically
@@ -19,7 +19,7 @@ In this lab, I deployed a static website to Amazon S3 using the AWS CLI. During 
 <img width="800" height="409" alt="image" src="https://github.com/user-attachments/assets/0759e8fd-1a9c-4867-8154-5520be6533b7" />
 
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 1. AWS CLI Setup & S3 Bucket Creation
 **Screenshot 1: CLI Configuration and Bucket Creation**
@@ -155,7 +155,7 @@ Static Website Hosting:
   - Endpoint: http://twhitlock256.s3-website-us-west-2.amazonaws.com
 ```
 
-## 💡 Key Learnings
+##  Key Learnings
 
 ### S3 Static Website Hosting
 - **Cost-Effective**: No server management, pay only for storage and requests
@@ -189,7 +189,7 @@ aws s3 sync (Sync):
 - Programmatic access via CLI is auditable via CloudTrail
 - Rotate credentials regularly
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 **Implemented Security Measures:**
 ```yaml
@@ -211,15 +211,15 @@ EC2:
 ## ✅ Lab Summary
 
 **Successfully Completed:**
-- ✅ Configured AWS CLI with credentials
-- ✅ Created S3 bucket with unique name
-- ✅ Created IAM user with S3 full access
-- ✅ Configured bucket permissions for public website
-- ✅ Enabled static website hosting
-- ✅ Uploaded website files with public-read ACL
-- ✅ Created deployment automation script
-- ✅ Tested website deployment and updates
-- ✅ Optimized with sync command for efficiency
+-  Configured AWS CLI with credentials
+-  Created S3 bucket with unique name
+-  Created IAM user with S3 full access
+-  Configured bucket permissions for public website
+-  Enabled static website hosting
+-  Uploaded website files with public-read ACL
+-  Created deployment automation script
+-  Tested website deployment and updates
+-  Optimized with sync command for efficiency
 
 **Website URL:**
 ```
@@ -264,21 +264,8 @@ jobs:
             --delete
 ```
 
-## 📚 Additional Resources
 
-- [Amazon S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
-- [AWS CLI S3 Commands](https://docs.aws.amazon.com/cli/latest/reference/s3/)
-- [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 
----
-
-**Lab Status**: ✅ Completed Successfully
-
-**Completion Date**: [Add your date]
-
-**Website URL**: http://twhitlock256.s3-website-us-west-2.amazonaws.com
-
-**Bucket Name**: twhitlock256
 
 ---
 
