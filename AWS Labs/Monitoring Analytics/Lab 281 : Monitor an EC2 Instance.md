@@ -1,109 +1,105 @@
-# EC2 Monitoring & CloudWatch Lab – README
-
-## Lab Overview
-
-In this lab, I monitored an EC2 instance using Amazon CloudWatch, SNS, dashboards, and CPU stress tools. This gave me hands-on experience in tracking instance performance, visualizing metrics, and testing alerts under load.
-
----
-
-# Task 1: Create an SNS Topic and Subscription
-
-1. Go to SNS → Topics → Create Topic.
-2. Type: Standard.
-3. Name: MyCwAlarm.
-4. Click Create.
-5. Open the topic → Subscriptions → Create subscription.
-6. Protocol: Email.
-7. Endpoint: Your email address.
-8. Confirm the subscription from your email inbox.
-
-<img width="1349" height="558" alt="image" src="https://github.com/user-attachments/assets/0386d729-a823-4001-86c8-0f847d109958" />
-<img width="1358" height="563" alt="image" src="https://github.com/user-attachments/assets/2f9ce1d8-55d4-4f31-9b2a-dffa5b7e4894" />
-<img width="1348" height="563" alt="image" src="https://github.com/user-attachments/assets/07197682-a4c3-4af8-91fd-8f98af7b0997" />
+# AWS EC2 Performance Monitoring & Incident Response Pipeline
 
 
+##  Executive Summary
+In enterprise cloud environments, "silent failures" are a major risk to business continuity. If a server becomes overloaded without notifying the operations team, it can lead to application downtime and revenue loss.
 
+**This project addresses that risk by building a proactive observability pipeline.**
+
+Instead of manually checking server health, I engineered an automated system using **Amazon CloudWatch** and **Amazon SNS**. The system continuously monitors compute resources, detects anomalies (High CPU), and autonomously triggers alerts to administrators. This reduces the **Mean Time to Detect (MTTD)** from hours to seconds.
 
 ---
 
-# Task 2: Create a CloudWatch Alarm
-
-1. Go to CloudWatch → Metrics.
-2. Select EC2 → Per-Instance Metrics.
-3. Choose CPUUtilization.
-4. Set:
-   - Statistic: Average
-   - Period: 1 minute
-   - Threshold: Greater than 60%
-5. Add SNS notification: MyCwAlarm.
-6. Name the alarm: LabCPUUtilizationAlarm.
-
-<img width="1361" height="562" alt="image" src="https://github.com/user-attachments/assets/0f9ee03f-98af-45ff-af36-5798e8e5ce2d" />
-<img width="1365" height="561" alt="image" src="https://github.com/user-attachments/assets/84574bbe-cc8d-4e9e-b887-779a7339de63" />
-<img width="1365" height="465" alt="image" src="https://github.com/user-attachments/assets/7d193432-836c-4a3b-b143-c92c1fa9ba43" />
-<img width="1364" height="566" alt="image" src="https://github.com/user-attachments/assets/2cd348bb-1e0a-41e3-9538-b44d977c126f" />
-<img width="1365" height="564" alt="image" src="https://github.com/user-attachments/assets/2a4b1f52-fbbd-4ca1-8ea4-adcb9453260a" />
-<img width="1358" height="565" alt="image" src="https://github.com/user-attachments/assets/8df1ab1a-fb5f-41fd-bdf3-351bf5cbb278" />
-<img width="1359" height="554" alt="image" src="https://github.com/user-attachments/assets/46ec47ba-9243-451d-9af0-d92c30f58957" />
-<img width="1365" height="560" alt="image" src="https://github.com/user-attachments/assets/cb186390-06ed-426e-bab2-1f420f0901e9" />
-
-
-# Task 3: Connect to EC2 and Install Tools
-
-1. Connect to the EC2 instance using EC2 Instance Connect or Session Manager.
-2. Install the stress tool:
-   sudo yum install -y stress
-3. Verify installation:
-   stress --version
-
-[PLACEHOLDER: EC2 Terminal Screenshot]
+##  System Workflow
+The pipeline follows a standard event-driven monitoring architecture:
+1.  **Data Collection:** EC2 instance generates raw performance data (CPU Usage).
+2.  **Aggregation:** CloudWatch aggregates this data into 1-minute metrics.
+3.  **Evaluation:** A CloudWatch Alarm evaluates the metric against a static threshold (60%).
+4.  **Action:** If the threshold is breached, the Alarm publishes a message to an SNS Topic.
+5.  **Notification:** SNS fans out the message to subscribed endpoints (Email), alerting the engineer.
 
 ---
 
-# Task 4: Run a CPU Stress Test
+##  Technical Implementation
 
-1. Run the CPU stress command:
-   sudo stress --cpu 10 -v --timeout 400s
-2. Optionally monitor CPU load:
-   top
-3. View the alarm change to "In alarm" (red) on CloudWatch.
+### Task 1: Configuring the Notification Backbone (Amazon SNS)
+**Objective:** Establish a decoupled messaging channel to handle alerts.
 
-<img width="1346" height="582" alt="image" src="https://github.com/user-attachments/assets/b146da66-9763-42f2-9dfd-dd8f35243dae" />
+**Technical Explanation:**
+Directly hardcoding email addresses into monitoring tools isn't scalable. By using **Simple Notification Service (SNS)**, I created a "Pub/Sub" topic. This allows the monitoring system to publish alerts without needing to know *who* is listening, making the architecture flexible for future integrations (e.g., sending alerts to Slack or PagerDuty later).
 
+**What I Did:**
+* Created a Standard SNS Topic named `MyCwAlarm`.
+* Configured an Email Subscription to route critical alerts to my inbox.
+* Verified the endpoint to ensure the handshake between AWS and the email provider was successful.
 
----
-
-# Task 5: Check SNS Alarm Notification
-
-1. Open your email inbox.
-2. Look for the SNS notification email triggered by the CPU alarm.
-
-[PLACEHOLDER: SNS Email Screenshot]
+**Evidence:**
+<img width="1349" alt="SNS Topic Creation" src="https://github.com/user-attachments/assets/0386d729-a823-4001-86c8-0f847d109958" />
+<img width="1358" alt="Subscription Setup" src="https://github.com/user-attachments/assets/2f9ce1d8-55d4-4f31-9b2a-dffa5b7e4894" />
+<img width="1348" alt="Subscription Confirmed" src="https://github.com/user-attachments/assets/07197682-a4c3-4af8-91fd-8f98af7b0997" />
 
 ---
 
-# Task 6: Create a CloudWatch Dashboard
+### Task 2: Defining Metric Thresholds & Alarms
+**Objective:** Automate the detection of performance anomalies.
 
-1. Go to CloudWatch → Dashboards → Create dashboard.
-2. Name the dashboard: LabEC2Dashboard.
-3. Add a line widget.
-4. Add the CPUUtilization metric.
-5. Save the dashboard.
+**Technical Explanation:**
+Metrics alone are just data; **Alarms** turn data into actionable intelligence. I chose the `CPUUtilization` metric because it is a leading indicator of server overload. I set the period to **1 minute** to ensure high-resolution monitoring, allowing the team to react to spikes immediately rather than waiting for 5-minute averages.
 
-<img width="1346" height="552" alt="image" src="https://github.com/user-attachments/assets/ab2c36a0-8134-4109-b760-7f9e778c0ebd" />
+**What I Did:**
+* Selected the `CPUUtilization` metric from the EC2 namespace.
+* Defined a static threshold of **> 60%**.
+* Configured the "ALARM" state trigger to publish a message to the `MyCwAlarm` SNS topic.
 
-<img width="1365" height="568" alt="image" src="https://github.com/user-attachments/assets/883037b3-8984-421a-8a28-59708a477188" />
+**Evidence:**
+*Metric Configuration:*
+<img width="1361" alt="Select Metric" src="https://github.com/user-attachments/assets/0f9ee03f-98af-45ff-af36-5798e8e5ce2d" />
+<img width="1365" alt="Period Settings" src="https://github.com/user-attachments/assets/84574bbe-cc8d-4e9e-b887-779a7339de63" />
+<img width="1365" alt="Threshold Logic" src="https://github.com/user-attachments/assets/7d193432-836c-4a3b-b143-c92c1fa9ba43" />
 
+*Alarm Logic:*
+<img width="1364" alt="SNS Action Link" src="https://github.com/user-attachments/assets/2cd348bb-1e0a-41e3-9538-b44d977c126f" />
+<img width="1365" alt="Naming the Alarm" src="https://github.com/user-attachments/assets/2a4b1f52-fbbd-4ca1-8ea4-adcb9453260a" />
+<img width="1358" alt="Review Configuration" src="https://github.com/user-attachments/assets/8df1ab1a-fb5f-41fd-bdf3-351bf5cbb278" />
+<img width="1359" alt="Success Message" src="https://github.com/user-attachments/assets/46ec47ba-9243-451d-9af0-d92c30f58957" />
+<img width="1365" alt="Initial OK State" src="https://github.com/user-attachments/assets/cb186390-06ed-426e-bab2-1f420f0901e9" />
 
+---
 
+### Task 3: Stress Testing & Validation
+**Objective:** Validate the reliability of the alert pipeline under simulated production load.
 
-# Summary
+**Technical Explanation:**
+A monitoring system is unproven until it is tested. To simulate a "noisy neighbor" or a sudden traffic spike, I utilized the Linux `stress` utility. This tool spawns worker threads that consume CPU cycles, forcing the hypervisor to report high utilization to CloudWatch.
 
-- SNS topic created.
-- CloudWatch alarm configured.
-- Stress tool installed and executed.
-- CPU alarm triggered.
-- SNS email received.
-- Dashboard created.
-- Alarm returned to normal.
+**What I Did:**
+* Connected to the instance via SSH.
+* Executed `sudo stress --cpu 10 --timeout 400s` to saturate the vCPUs.
+* **Result:** The CloudWatch Alarm correctly transitioned from `OK` to `ALARM` state, verifying the pipeline works.
 
+**Evidence:**
+<img width="1346" alt="Alarm Triggered Graph" src="https://github.com/user-attachments/assets/b146da66-9763-42f2-9dfd-dd8f35243dae" />
+
+---
+
+### Task 4: Data Visualization (Dashboards)
+**Objective:** Provide a "Single Pane of Glass" for infrastructure health.
+
+**Technical Explanation:**
+While alarms are good for immediate notification, dashboards are essential for **trend analysis**. By visualizing the CPU spike over time, an engineer can determine if the issue was a momentary blip or a sustained attack.
+
+**What I Did:**
+* Created a custom CloudWatch Dashboard (`LabEC2Dashboard`).
+* Added line widgets to track CPU history, allowing for easy correlation between the stress test timestamp and the metric spike.
+
+**Evidence:**
+<img width="1346" alt="Dashboard Creation" src="https://github.com/user-attachments/assets/ab2c36a0-8134-4109-b760-7f9e778c0ebd" />
+<img width="1365" alt="Final Dashboard View" src="https://github.com/user-attachments/assets/883037b3-8984-421a-8a28-59708a477188" />
+
+---
+
+## 💡 Skills Demonstrated
+* **Infrastructure Monitoring:** Deep understanding of AWS CloudWatch Metrics and Alarms.
+* **Incident Response:** Setting up automated notification pathways using SNS.
+* **Chaos Engineering:** Using `stress` tools to validate system behavior under load.
+* **Operational Visibility:** Creating dashboards to visualize real-time infrastructure performance.
