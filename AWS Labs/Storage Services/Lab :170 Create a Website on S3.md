@@ -57,7 +57,7 @@ This screenshot demonstrates the final working website, the deployment automatio
 
 ---
 
-## 🛠️ Implementation Details
+##  Implementation Details
 
 ### AWS CLI Configuration
 ```bash
@@ -208,7 +208,7 @@ EC2:
   - Systems Manager for secure connections
 ```
 
-## ✅ Lab Summary
+##  Lab Summary
 
 **Successfully Completed:**
 -  Configured AWS CLI with credentials
@@ -233,7 +233,7 @@ http://twhitlock256.s3-website-us-west-2.amazonaws.com
 | CLI | Automation, scripting | Fast | High |
 | Script | Updates, maintenance | Fastest | Highest |
 
-## 🚀 Advanced Topics
+##  Advanced Topics
 
 ### CloudFront Integration
 ```bash
