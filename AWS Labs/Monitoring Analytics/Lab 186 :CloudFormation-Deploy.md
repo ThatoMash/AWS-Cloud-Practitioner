@@ -2,17 +2,17 @@
 
 
 
-## 📖 Project Overview
+##  Project Overview
 In modern cloud environments, observability and compliance are critical for maintaining system uptime and security posture. This project focuses on implementing a robust monitoring solution for EC2 infrastructure.
 
 Using **Amazon CloudWatch**, **AWS Systems Manager**, and **AWS Config**, I architected a solution to capture system-level metrics, analyze application logs in real-time, and automatically audit infrastructure for compliance deviations.
 
-### 🏗️ Architecture
+###  Architecture
 <img width="668" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d22d6bf3-f37d-4f45-9012-ce68237db78f" />
 
 ---
 
-## 🛠️ Tech Stack & Services Used
+##  Tech Stack & Services Used
 * **Compute:** Amazon EC2 (Web Servers)
 * **Automation:** AWS Systems Manager (Run Command, Parameter Store)
 * **Observability:** Amazon CloudWatch (Logs, Metrics, Alarms, Events)
@@ -21,7 +21,7 @@ Using **Amazon CloudWatch**, **AWS Systems Manager**, and **AWS Config**, I arch
 
 ---
 
-## 🚀 Project Tasks & Accomplishments
+##  Project Tasks & Accomplishments
 
 ### Task 1: Installing the CloudWatch Agent
 **What I did:**
@@ -88,7 +88,7 @@ I implemented governance rules to ensure the environment remains secure and cost
 
 ---
 
-## 💡 Key Takeaways
+##  Key Takeaways
 * **Operational Excellence:** Automated the installation of monitoring agents, removing manual overhead.
 * **Observability:** Transformed raw log data into real-time alerts, reducing potential Mean Time to Detect (MTTD) for application errors.
 * **Cost & Compliance:** Utilized AWS Config to proactively identify wasted resources (unattached volumes) and enforce tagging standards.
