@@ -26,10 +26,9 @@ EBS volumes are "Availability Zone (AZ) locked." To attach a volume to an instan
 
 **Evidence:**
 *Volume Creation & Attachment:*
-<img width="1358" alt="Create Volume" src="https://github.com/user-attachments/assets/8ee18008-9268-42be-b0ab-00c8863e6f48" />
+
 <img width="1362" alt="Volume Config" src="https://github.com/user-attachments/assets/ddbf7313-d40b-465c-94be-d1856d6d7d69" />
 <img width="1365" alt="Volume Available" src="https://github.com/user-attachments/assets/8573965e-dc1c-49a3-940f-9144be967915" />
-<img width="1358" alt="Attach Volume" src="https://github.com/user-attachments/assets/4f518e2c-7178-432b-8326-af86f34b0ca8" />
 <img width="1362" alt="Volume In-Use" src="https://github.com/user-attachments/assets/21adc515-f47a-4e60-89d6-c876bff36106" />
 
 *Terminal Verification:*
