@@ -44,7 +44,6 @@ I configured CloudWatch Logs to ingest real-time data from the web server's acce
 
 **Implementation Screenshots:**
 *Log Groups & Metric Filters:*
-<img width="713" alt="Log Groups" src="https://github.com/user-attachments/assets/a1315173-3ab6-4d36-9785-863da4744da7" />
 <img width="1358" alt="Metric Filter Setup" src="https://github.com/user-attachments/assets/50a457db-c2aa-4cfc-8ea9-382654fa7f14" />
 
 *Alarm Configuration:*
