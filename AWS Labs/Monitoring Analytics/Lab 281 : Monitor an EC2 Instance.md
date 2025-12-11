@@ -34,7 +34,7 @@ Directly hardcoding email addresses into monitoring tools isn't scalable. By usi
 * Verified the endpoint to ensure the handshake between AWS and the email provider was successful.
 
 **Evidence:**
-<img width="1349" alt="SNS Topic Creation" src="https://github.com/user-attachments/assets/0386d729-a823-4001-86c8-0f847d109958" />
+
 <img width="1358" alt="Subscription Setup" src="https://github.com/user-attachments/assets/2f9ce1d8-55d4-4f31-9b2a-dffa5b7e4894" />
 <img width="1348" alt="Subscription Confirmed" src="https://github.com/user-attachments/assets/07197682-a4c3-4af8-91fd-8f98af7b0997" />
 
@@ -53,8 +53,7 @@ Metrics alone are just data; **Alarms** turn data into actionable intelligence. 
 
 **Evidence:**
 *Metric Configuration:*
-<img width="1361" alt="Select Metric" src="https://github.com/user-attachments/assets/0f9ee03f-98af-45ff-af36-5798e8e5ce2d" />
-<img width="1365" alt="Period Settings" src="https://github.com/user-attachments/assets/84574bbe-cc8d-4e9e-b887-779a7339de63" />
+
 <img width="1365" alt="Threshold Logic" src="https://github.com/user-attachments/assets/7d193432-836c-4a3b-b143-c92c1fa9ba43" />
 
 *Alarm Logic:*
