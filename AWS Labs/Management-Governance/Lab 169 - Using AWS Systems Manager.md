@@ -22,9 +22,7 @@ Used **Fleet Manager** to collect operating system, application, and metadata fr
 - Able to review all installed applications and configuration settings remotely.  
 
 **Screenshot Placeholder:**  
-<img width="1352" height="555" alt="image" src="https://github.com/user-attachments/assets/983678bc-10e1-441a-b022-c8a719916f82" />
 
-<img width="1286" height="550" alt="image" src="https://github.com/user-attachments/assets/d2927c17-725e-451b-9c5e-36dea4893410" />
 
 <img width="1358" height="592" alt="image" src="https://github.com/user-attachments/assets/c0a83a29-fb7c-4c56-b041-7083cde4c04e" />
 
@@ -53,7 +51,6 @@ Used **Run Command** to remotely install the **Widget Manufacturing Dashboard** 
 
 **Screenshot Placeholder:**  
 
-<img width="1358" height="575" alt="image" src="https://github.com/user-attachments/assets/0266c03a-e488-45ab-9ef9-10dda41e59f1" />
 
 <img width="1356" height="567" alt="image" src="https://github.com/user-attachments/assets/8e67e3d0-81c2-46fd-861a-0961c30b7785" />
 
@@ -76,7 +73,6 @@ Created a parameter `/dashboard/show-beta-features` to enable beta features in t
 - Verified live configuration updates in the running application.  
 
 **Screenshot Placeholder:**  
-<img width="1351" height="567" alt="image" src="https://github.com/user-attachments/assets/f7e97959-6483-4e81-8dc3-82ce6b5d51aa" />
 
 <img width="1364" height="577" alt="image" src="https://github.com/user-attachments/assets/45ad2e09-00ab-4a4a-8300-708aab66f678" />
 
@@ -99,7 +95,6 @@ Used **Session Manager** to securely access the EC2 instance without SSH.
 - Verified secure, auditable access to instances with IAM control.  
 
 **Screenshot Placeholder:**  
-<img width="1359" height="575" alt="image" src="https://github.com/user-attachments/assets/6552ad0b-6250-4322-9715-28499e241bcf" />
 <img width="1365" height="564" alt="image" src="https://github.com/user-attachments/assets/05e04a40-42c0-4a30-9273-82ce1eabd0b8" />
 <img width="1364" height="573" alt="image" src="https://github.com/user-attachments/assets/02011939-59bf-441d-8616-fd36732ef598" />
 <img width="1359" height="597" alt="image" src="https://github.com/user-attachments/assets/5fd803ee-9e63-47c0-951f-fb8cbe3cbb33" />
