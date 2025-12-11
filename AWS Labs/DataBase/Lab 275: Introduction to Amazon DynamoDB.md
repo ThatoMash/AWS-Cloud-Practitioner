@@ -52,8 +52,6 @@ I inserted multiple songs into the table, each with different attributes such as
 
 This demonstrated how DynamoDB supports flexible schemas where each item can contain different attributes.
 
- <img width="1363" height="269" alt="image" src="https://github.com/user-attachments/assets/f84fcd73-625a-4faa-873a-c834f9f67556" />
-
  Create Items
 
 
@@ -70,13 +68,6 @@ Adding new attributes
 Data is Successfully added to the table
 
 <img width="1351" height="570" alt="image" src="https://github.com/user-attachments/assets/2ebc697e-1483-4622-aa08-8d49e84a7560" />
-
-Adding another data to the table
-
-<img width="1365" height="555" alt="image" src="https://github.com/user-attachments/assets/dd29e2b9-be04-4788-9b46-22e5bceafe57" />
-
-<img width="1358" height="557" alt="image" src="https://github.com/user-attachments/assets/a15a51b6-2b07-4f53-a0ce-b2237d5259e8" />
-
 
 
 ---
