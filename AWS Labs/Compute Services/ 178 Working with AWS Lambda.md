@@ -142,13 +142,9 @@ This function orchestrates the reporting process and publishes results to SNS.
 ### 7️ Scheduled Automation
 I configured an **EventBridge cron rule** to trigger the report **Monday through Saturday at 8 PM (UTC)**.
 
- **Image Placeholder:** `eventbridge-schedule.png`
+ <img width="1365" height="570" alt="image" src="https://github.com/user-attachments/assets/68675b05-922f-421f-ba39-851f05c849d1" />
 
----
-
-##  Sample Email Output
-
- **Image Placeholder:** `sales-report-email.png`
+<img width="1363" height="435" alt="image" src="https://github.com/user-attachments/assets/5df2735d-aed9-465d-af1a-3c069fefbcda" />
 
 ---
 
