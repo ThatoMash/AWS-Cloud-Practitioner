@@ -63,7 +63,9 @@ By completing this lab, I was able to:
 I connected to the CLI Host EC2 instance using **EC2 Instance Connect** and configured the AWS CLI with the provided credentials and default region (`us-west-2`). This instance was used for all troubleshooting tasks.
 
 📸 **CLI Host Connection Placeholder**  
-![CLI Host Connection](images/cli-host-connect.png)
+
+<img width="1357" height="398" alt="image" src="https://github.com/user-attachments/assets/bdfdad81-358d-48ed-a6dc-7739cffd283b" />
+<img width="1363" height="381" alt="image" src="https://github.com/user-attachments/assets/eb94f65c-edd3-477c-89fe-fe3f089b7d21" />
 
 ---
 
@@ -76,8 +78,19 @@ Steps included:
 - Creating a flow log targeting the S3 bucket
 - Verifying the flow log status was **ACTIVE**
 
-📸 **VPC Flow Logs Creation Placeholder**  
-![VPC Flow Logs](images/vpc-flow-logs.png)
+ **VPC Flow Logs Creation Placeholder**  
+
+<img width="1365" height="107" alt="image" src="https://github.com/user-attachments/assets/04ef055e-4c51-4010-80cf-d3712269eabf" />
+
+VPC ID
+<img width="1348" height="184" alt="image" src="https://github.com/user-attachments/assets/70a8fe8d-73d3-4b2d-8f6b-2a245c495f1e" />
+
+FLOWLOG
+<img width="1354" height="141" alt="image" src="https://github.com/user-attachments/assets/9eb56bfd-5c53-45b2-bdc6-a17cc0d2a5cd" />
+
+FLOW LOG STATUS (ACTIVE)
+<img width="1363" height="320" alt="image" src="https://github.com/user-attachments/assets/23af60a6-dad7-4807-89fa-6738b8f2a1c3" />
+
 
 ---
 
@@ -95,13 +108,23 @@ When I attempted to access the web server using its public IP address, the page 
 **Root Cause:**
 The route table for the public subnet was missing a route to the Internet Gateway.
 
+
 **Resolution:**
 I added a route (`0.0.0.0/0`) pointing to the Internet Gateway. After this fix, the webpage loaded successfully and displayed:
 
+<img width="1359" height="86" alt="image" src="https://github.com/user-attachments/assets/7b9ef96e-da5c-4ae9-8a4a-77602d465288" />
+
 > **"Hello From Your Web Server!"**
 
-📸 **Web Server Success Placeholder**  
-![Web Server Access](images/web-server-success.png)
+<img width="1365" height="158" alt="image" src="https://github.com/user-attachments/assets/0c7c1cde-a2ef-4ea2-bc37-f118b791439f" />
+
+
+ **Web Server Success**  
+
+INSTANCE RUNNING
+<img width="1363" height="374" alt="image" src="https://github.com/user-attachments/assets/7b268a9e-100a-4f84-833a-e4fd4795e932" />
+<img width="1365" height="290" alt="image" src="https://github.com/user-attachments/assets/cd38d1a3-8587-4381-86a1-e74120787542" />
+
 
 ---
 
@@ -110,16 +133,24 @@ Even after fixing web access, SSH connections using EC2 Instance Connect continu
 
 **What I investigated:**
 - Verified port 22 was allowed in the security group
-- Checked Network ACL rules associated with the subnet
 
+  <img width="1365" height="461" alt="image" src="https://github.com/user-attachments/assets/f9485680-eaed-451d-9a79-f4dc9afdf1c1" />
+
+- Checked Network ACL rules associated with the subnet
+  
 **Root Cause:**
 A Network ACL rule was explicitly **blocking inbound SSH (port 22)** traffic.
+<img width="1355" height="399" alt="image" src="https://github.com/user-attachments/assets/fc57e079-93f8-414b-8977-f5e2ce6214f8" />
+
 
 **Resolution:**
 I deleted the restrictive NACL entry. After this change, I successfully connected to the instance via EC2 Instance Connect and confirmed the hostname as `web-server`.
 
-📸 **SSH Access Placeholder**  
-![SSH Access](images/ssh-access.png)
+<img width="1232" height="82" alt="image" src="https://github.com/user-attachments/assets/bb1ab370-f7b5-408e-a1ba-e755fc589687" />
+
+ **SSH Access**  
+
+<img width="1365" height="561" alt="image" src="https://github.com/user-attachments/assets/8d2138f5-c2eb-42cd-851b-c465a6b4812a" />
 
 ---
 
