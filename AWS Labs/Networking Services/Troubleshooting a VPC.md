@@ -168,8 +168,19 @@ Using `grep`, I analyzed the logs to:
 
 I also converted Unix timestamps into human-readable format to verify the timing of rejected connections.
 
-📸 **Flow Log Analysis Placeholder**  
-![Flow Log Analysis](images/flow-log-analysis.png)
+ **Flow Log Analysis Placeholder**  
+
+<img width="1345" height="268" alt="image" src="https://github.com/user-attachments/assets/8fbb7746-a504-4b13-9d5f-65ade2fec747" />
+
+
+grep Reject
+
+<img width="1365" height="280" alt="image" src="https://github.com/user-attachments/assets/e4bf1ee6-5e39-4b30-9d17-298d0ad606bd" />
+
+
+
+
+
 
 ---
 
