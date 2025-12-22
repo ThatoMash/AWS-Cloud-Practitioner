@@ -3,7 +3,7 @@
 ## Introduction
 In this challenge lab, I worked with **Amazon Simple Storage Service (Amazon S3)** to create a storage bucket, upload an object, configure public access at the object level, and verify access through both a web browser and the AWS Command Line Interface (AWS CLI).
 
-This lab focused on understanding how S3 handles object storage, permissions, and public accessibility — skills that are essential for real-world cloud and web hosting scenarios.
+This lab focused on understanding how S3 handles object storage, permissions, and public accessibility ,skills that are essential for real-world cloud and web hosting scenarios.
 
 ---
 
@@ -42,8 +42,9 @@ By completing this lab, I was able to:
 ### 1. Connecting to the CLI Host Instance
 I connected to the pre-provisioned **CLI Host EC2 instance** using **EC2 Instance Connect**. This instance was used to configure AWS CLI credentials and interact with S3 programmatically.
 
-📸 **CLI Host Connection Placeholder**  
-![CLI Host Connection](images/cli-host-connect.png)
+ **CLI Host Connection Placeholder**  
+
+<img width="1365" height="329" alt="image" src="https://github.com/user-attachments/assets/95cf84bb-a346-48d3-8099-b3cd695377af" />
 
 ---
 
@@ -56,8 +57,9 @@ Configuration details:
 
 This setup allowed me to run AWS CLI commands to manage S3 resources.
 
-📸 **AWS CLI Configuration Placeholder**  
-![AWS CLI Configuration](images/aws-cli-configure.png)
+ **AWS CLI Configuration Placeholder**  
+
+<img width="1364" height="282" alt="image" src="https://github.com/user-attachments/assets/ca3246b7-309e-4b3f-9648-cfd0e9ae7448" />
 
 ---
 
@@ -66,8 +68,9 @@ Using the AWS CLI, I created a new S3 bucket with a unique name in the `us-west-
 
 This bucket was used to store and manage objects throughout the lab.
 
-📸 **S3 Bucket Creation Placeholder**  
-![S3 Bucket Creation](images/s3-bucket-created.png)
+ **S3 Bucket Creation**  
+
+<img width="988" height="38" alt="image" src="https://github.com/user-attachments/assets/e9db47df-3d42-4e13-bfaa-f6a61beafcd1" />
 
 ---
 
@@ -76,8 +79,9 @@ After creating the bucket, I uploaded an object (sample file) into the S3 bucket
 
 This object served as the content I later configured for public access.
 
-📸 **Object Upload Placeholder**  
-![Object Upload](images/s3-object-upload.png)
+ **Object Upload Placeholder**  
+
+<img width="1361" height="91" alt="image" src="https://github.com/user-attachments/assets/f08eb2ea-eca9-4285-b5de-ffb7ca7a108e" />
 
 ---
 
@@ -86,8 +90,9 @@ I attempted to access the uploaded object using its S3 object URL in a web brows
 
 As expected, access was denied because the object permissions were still private by default.
 
-📸 **Access Denied Placeholder**  
-![Access Denied](images/s3-access-denied.png)
+ **Access Denied**  
+
+<img width="1347" height="174" alt="image" src="https://github.com/user-attachments/assets/b7322845-8160-42ef-bcee-e6e2468d8e45" />
 
 ---
 
@@ -99,8 +104,11 @@ Important note:
 
 This step demonstrated the principle of **least privilege**.
 
-📸 **Public Object Permissions Placeholder**  
-![Public Object Permissions](images/s3-object-public.png)
+ **Public Object Permissions**  
+
+
+<img width="1359" height="561" alt="image" src="https://github.com/user-attachments/assets/4a193e51-f1f0-4490-83e4-b1ef8431562b" />
+
 
 ---
 
@@ -109,18 +117,19 @@ After updating the permissions, I accessed the object again using a web browser.
 
 This time, the object loaded successfully, confirming that public access was correctly configured.
 
-📸 **Successful Browser Access Placeholder**  
-![Successful Access](images/s3-browser-access.png)
+ **Successful Browser Access Placeholder**  
+
+<img width="1365" height="131" alt="image" src="https://github.com/user-attachments/assets/98027037-fb71-48c9-8f2d-637af05cb1e8" />
 
 ---
 
 ### 8. Listing Bucket Contents Using AWS CLI
 Finally, I listed the contents of the S3 bucket using the AWS CLI to confirm that the object was present.
 
-This validated both the upload and the ability to interact with S3 programmatically.
 
-📸 **AWS CLI List Bucket Placeholder**  
-![List Bucket Contents](images/aws-cli-s3-ls.png)
+ **AWS CLI List**  
+
+<img width="1361" height="47" alt="image" src="https://github.com/user-attachments/assets/30ea7143-bf66-42f1-8bc3-c6ca78f25ec7" />
 
 ---
 
@@ -138,5 +147,3 @@ This challenge lab strengthened my understanding of Amazon S3 fundamentals, incl
 This hands-on experience reflects real-world use cases such as hosting static assets and managing cloud storage securely.
 
 ---
-
-✅ **Lab Status: Completed Successfully**
