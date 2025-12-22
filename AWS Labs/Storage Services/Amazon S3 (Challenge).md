@@ -42,7 +42,7 @@ By completing this lab, I was able to:
 ### 1. Connecting to the CLI Host Instance
 I connected to the pre-provisioned **CLI Host EC2 instance** using **EC2 Instance Connect**. This instance was used to configure AWS CLI credentials and interact with S3 programmatically.
 
- **CLI Host Connection Placeholder**  
+ **CLI Host Connection**  
 
 <img width="1365" height="329" alt="image" src="https://github.com/user-attachments/assets/95cf84bb-a346-48d3-8099-b3cd695377af" />
 
@@ -57,7 +57,7 @@ Configuration details:
 
 This setup allowed me to run AWS CLI commands to manage S3 resources.
 
- **AWS CLI Configuration Placeholder**  
+ **AWS CLI Configuration**  
 
 <img width="1364" height="282" alt="image" src="https://github.com/user-attachments/assets/ca3246b7-309e-4b3f-9648-cfd0e9ae7448" />
 
@@ -79,7 +79,7 @@ After creating the bucket, I uploaded an object (sample file) into the S3 bucket
 
 This object served as the content I later configured for public access.
 
- **Object Upload Placeholder**  
+ **Object Upload**  
 
 <img width="1361" height="91" alt="image" src="https://github.com/user-attachments/assets/f08eb2ea-eca9-4285-b5de-ffb7ca7a108e" />
 
@@ -117,7 +117,7 @@ After updating the permissions, I accessed the object again using a web browser.
 
 This time, the object loaded successfully, confirming that public access was correctly configured.
 
- **Successful Browser Access Placeholder**  
+ **Successful Browser Access**  
 
 <img width="1365" height="131" alt="image" src="https://github.com/user-attachments/assets/98027037-fb71-48c9-8f2d-637af05cb1e8" />
 
