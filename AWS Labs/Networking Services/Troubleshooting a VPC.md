@@ -31,8 +31,9 @@ The architecture included the following components:
 - S3 bucket for storing VPC Flow Logs
 - CLI Host EC2 instance for AWS CLI access
 
-📸 **Architecture Diagram Placeholder**  
-![VPC Architecture Diagram](images/architecture-diagram.png)
+ **Architecture Diagram**  
+<img width="834" height="413" alt="image" src="https://github.com/user-attachments/assets/ea21360e-c508-4267-b756-009fa92b94cc" />
+
 
 ---
 
