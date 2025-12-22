@@ -144,6 +144,4 @@ Finally, I listed the contents of the S3 bucket using the AWS CLI to confirm tha
 ## Conclusion
 This challenge lab strengthened my understanding of Amazon S3 fundamentals, including bucket creation, object management, and permission configuration. It also reinforced the importance of secure access control while enabling public content delivery when required.
 
-This hands-on experience reflects real-world use cases such as hosting static assets and managing cloud storage securely.
-
 ---
