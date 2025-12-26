@@ -1,14 +1,14 @@
 
 # AWS VPC: Build a Custom VPC and Launch a Web Server
 
-## 📘 Project Overview
+##  Project Overview
 
 In this lab, I designed and deployed a **custom AWS Virtual Private Cloud (VPC)** with public and private subnets, routing, security groups, and a fully functional **EC2 web server**.  
 The project demonstrates practical AWS networking and compute skills.
 
 ---
 
-## 🎯 Lab Objectives
+##  Lab Objectives
 
 After completing this lab, I was able to:
 
@@ -158,7 +158,7 @@ I accessed the web server and confirmed the success page loaded.
 
 ---
 
-## ✅ Recap
+##
 
 In this project, I:
 
@@ -167,4 +167,4 @@ In this project, I:
 - Configured **secure routing and access controls**
 - Deployed and validated a **web server on Amazon EC2**
 
-This project demonstrates a strong foundation in **AWS cloud infrastructure and networking fundamentals**.
+
