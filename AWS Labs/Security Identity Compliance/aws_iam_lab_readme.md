@@ -1,23 +1,22 @@
 # Lab: Introduction to AWS Identity and Access Management (IAM)
 
-## 📖 Project Overview
+##  Project Overview
 In this lab, I acted as a Cloud Administrator to manage access control for a business environment. I moved away from a "single login" approach to implement a secure, identity-driven system. My work focused on creating a custom password policy, organizing users into functional groups, and validating permissions to ensure the **Principle of Least Privilege**.
 
-**![Picture Placeholder: Overview of IAM environment](path_to_picture_1)**
-
-## 🎯 Lab Objectives
-* I created and applied a custom IAM password policy.  
-* I audited and explored pre-created IAM users and groups.  
-* I inspected JSON-based IAM policies (Managed and Inline).  
-* I implemented Role-Based Access Control (RBAC) by adding users to groups.  
+##  Lab Objectives
+* I created and applied a custom IAM password policy.
+* I audited and explored pre-created IAM users and groups.
+* I inspected JSON-based IAM policies (Managed and Inline).
+* I implemented Role-Based Access Control (RBAC) by adding users to groups.
 * I validated security boundaries by testing service access as different IAM users.
 
 ---
 
-## 🏗️ IAM Architecture & Business Scenario
+##  IAM Architecture & Business Scenario
 I configured the environment to support specific job functions across three different users.
 
-**![Picture Placeholder: IAM Users and Groups Diagram](path_to_picture_2)**
+<img width="774" height="377" alt="image" src="https://github.com/user-attachments/assets/5a5b7a66-c0df-4750-8f40-29dc83bab7b9" />
+
 
 | User | Group Assignment | Permission Logic |
 | :--- | :--- | :--- |
@@ -27,55 +26,81 @@ I configured the environment to support specific job functions across three diff
 
 ---
 
-## 🛠️ Step-by-Step Implementation
+##  Step-by-Step Implementation
 
 ### Task 1: Creating an Account Password Policy
-I strengthened the account security by implementing a custom password policy.
+I strengthened the account security by implementing a custom password policy. I updated the minimum password length to **10 characters** and enforced complexity requirements.
 
-* I updated the minimum password length to **10 characters**.  
-**![Picture Placeholder: Updated minimum password length](path_to_picture_3)**
-* I required at least one uppercase letter, one lowercase letter, one number, and one non-alphanumeric character.  
-**![Picture Placeholder: Password complexity requirements](path_to_picture_4)**
-* I enabled password expiration for **90 days** and prevented password reuse.  
-**![Picture Placeholder: Enabled password expiration and reuse prevention](path_to_picture_5)**
+
+<img width="1364" height="570" alt="image" src="https://github.com/user-attachments/assets/430ccd2c-6f6a-4deb-b88e-6d6f909b31c0" />
+
 
 ### Task 2: Exploring Users and User Groups
-I audited the existing identities to understand the baseline permissions.
+I audited the existing identities to understand the baseline permissions. I specifically inspected the JSON policy for the Admin group to understand the allowed API actions.
 
-* I verified that `user-1`, `user-2`, and `user-3` initially had no permissions.  
-**![Picture Placeholder: Verified users have no permissions](path_to_picture_6)**
-* I inspected the `EC2-Support` group’s **Managed Policy** (`AmazonEC2ReadOnlyAccess`).  
-**![Picture Placeholder: Inspected EC2-Support managed policy](path_to_picture_7)**
-* I analyzed the `EC2-Admin` group's **Inline Policy** (`EC2-Admin-Policy`) which specifically allows `ec2:StartInstances` and `ec2:StopInstances`.  
-**![Picture Placeholder: Inspected EC2-Admin inline policy](path_to_picture_8)**
+IAM Groups List
+
+<img width="1365" height="300" alt="image" src="https://github.com/user-attachments/assets/92a1bec3-ac58-41d9-ae21-87b341e5a54e" />
+
+JSON Policy Structure
+
+<img width="1365" height="572" alt="image" src="https://github.com/user-attachments/assets/ee408f92-7611-4046-96f9-1d5ae339fea6" />
+
 
 ### Task 3: Adding Users to User Groups
-I assigned users to their respective groups so they would inherit the necessary permissions.
+I assigned users to their respective groups so they would inherit the necessary permissions via RBAC (Role-Based Access Control).
 
-* I added `user-1` to the `S3-Support` group.  
-**![Picture Placeholder: Added user-1 to S3-Support group](path_to_picture_9)**
-* I added `user-2` to the `EC2-Support` group.  
-**![Picture Placeholder: Added user-2 to EC2-Support group](path_to_picture_10)**
-* I added `user-3` to the `EC2-Admin` group.  
-**![Picture Placeholder: Added user-3 to EC2-Admin group](path_to_picture_11)**
+![User Group Membership](group-membership.png)
+
+ Addiing User 1 to S3 Support
+ 
+<img width="1361" height="314" alt="image" src="https://github.com/user-attachments/assets/5ca87ca5-58be-41ea-bd89-26dc926f602f" />
+
+Adding User 2 to Ec2 Support
+
+<img width="1346" height="318" alt="image" src="https://github.com/user-attachments/assets/a8107415-ae10-4971-868d-04486785af2b" />
+
+Adding user 3 to Ec2 Admin Gtroup
+
+<img width="1365" height="310" alt="image" src="https://github.com/user-attachments/assets/13be9596-5b01-4b6b-9b1e-3a7d54a13d55" />
+
 
 ### Task 4: Signing In and Testing User Permissions
 I used the IAM Sign-in URL to log in as each user and verify the "Blast Radius" of their permissions.
 
-* **Testing user-1:** I confirmed I could view S3 buckets but received an **"Access Denied"** error when trying to view EC2 instances.  
-**![Picture Placeholder: user-1 S3 access screenshot](path_to_picture_12)**
-* **Testing user-2:** I verified I could view EC2 instances, but when I tried to stop one, the action was **Denied**.  
-**![Picture Placeholder: user-2 EC2 read-only access screenshot](path_to_picture_13)**
-* **Testing user-3:** As the administrator, I successfully performed the "Stop Instance" action.  
-**![Picture Placeholder: user-3 EC2 admin action screenshot](path_to_picture_14)**
+* **Testing user-1:** I confirmed I could view S3 buckets but was blocked from EC2.
+
+S3 Success
+<img width="1365" height="454" alt="image" src="https://github.com/user-attachments/assets/01eb9ca3-c3c7-4e54-907f-a7a33f02122d" />
+
+EC2 Denied
+
+<img width="1365" height="554" alt="image" src="https://github.com/user-attachments/assets/7ad5ec8f-32af-40f3-a6dc-43be7930e213" />
+
+
+* **Testing user-2:** I verified I could view EC2 instances, but I was unauthorized to stop them.
+* 
+  EC2 Read Only
+
+  <img width="1365" height="241" alt="image" src="https://github.com/user-attachments/assets/07eaf07e-dff5-471f-b3c4-cec8bbdfa09e" />
+
+Stop Action Denied
+
+<img width="1365" height="563" alt="image" src="https://github.com/user-attachments/assets/00ce8579-e864-4176-97ab-a45a605746bd" />
+
+ S3 Denied
+
+<img width="1363" height="486" alt="image" src="https://github.com/user-attachments/assets/b10435f6-cc29-445f-bf9d-370a915e1c06" />
+
+
+ 
+* **Testing user-3:** As the administrator, I successfully performed the "Stop Instance" action.
+* 
+  Stop Action Success
+
+<img width="1363" height="316" alt="image" src="https://github.com/user-attachments/assets/69c7e74f-68b7-4f59-ad5c-91bf5a01cee2" />
+
+<img width="1365" height="569" alt="image" src="https://github.com/user-attachments/assets/5633a8ca-26a1-4fd4-9b89-0b0bd291292f" />
+
 
 ---
-
-## 💡 Key Takeaways
-* **Efficiency:** I learned that managing permissions through **Groups** is much faster than managing individual users.  
-**![Picture Placeholder: Efficiency takeaway screenshot](path_to_picture_15)**
-* **Least Privilege:** I proved that restricting access prevents unauthorized changes to infrastructure.  
-**![Picture Placeholder: Least privilege takeaway screenshot](path_to_picture_16)**
-* **Auditability:** I practiced reading JSON policies to understand the exact API actions allowed in the environment.  
-**![Picture Placeholder: Auditability takeaway screenshot](path_to_picture_17)**
-
