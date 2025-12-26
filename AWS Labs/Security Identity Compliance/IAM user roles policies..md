@@ -50,7 +50,7 @@ JSON Policy Structure
 ### Task 3: Adding Users to User Groups
 I assigned users to their respective groups so they would inherit the necessary permissions via RBAC (Role-Based Access Control).
 
-![User Group Membership](group-membership.png)
+User Group Membership
 
  Addiing User 1 to S3 Support
  
